@@ -33,7 +33,7 @@ export const postsReducer = (state = initialState, action) => {
     case types.FILL_USERS:
       return {
         ...state,
-        users: [...state.users, ...removeDuplicatesById(state.posts, action.payload)],
+        users: [...state.users, ...removeDuplicatesById(state.users, action.payload)],
       };
 
     case types.LIKE_POST:
