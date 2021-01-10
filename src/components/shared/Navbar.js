@@ -17,7 +17,6 @@ import { Button } from "@material-ui/core";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import logo from "../../images/logo.png";
 import { LoadingIcon, HomeIcon, HomeActiveIcon } from "../../icons";
-import { defaultCurrentUser, getDefaultUser } from "../../data";
 import { useNProgress } from "@tanem/react-nprogress";
 
 const selectState = (state) => ({
@@ -119,13 +118,10 @@ function Logo() {
 function Search() {
   const classes = useNavbarStyles();
   const [loading] = React.useState(false);
-  // eslint-disable-next-line
-  const [results, setResults] = React.useState([]);
   const [query, setQuery] = React.useState("");
 
   React.useEffect(() => {
     if (!query.trim()) return;
-    setResults(Array.from({ length: 5 }, () => getDefaultUser()));
   }, [query]);
 
   function handleClearInput() {
@@ -188,7 +184,7 @@ function Links({ path }) {
               }
             />
             <Avatar
-              src={defaultCurrentUser.profile_image}
+              src={state.profile.profile_image.small}
               className={classes.profileImage}
             />
           </Link>

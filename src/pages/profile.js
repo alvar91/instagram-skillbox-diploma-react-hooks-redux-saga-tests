@@ -35,6 +35,7 @@ function ProfilePage() {
   const [showOptionsMenu, setOptionsMenu] = React.useState(false);
 
   const state = useSelector(selectState);
+  const {profile_image: { large: image }} = state.profile;
 
   const isOwner = true;
 
@@ -51,7 +52,7 @@ function ProfilePage() {
       <div className={classes.container}>
         <Hidden xsDown>
           <Card className={classes.cardLarge}>
-            <ProfilePicture isOwner={isOwner} />
+            <ProfilePicture image={image} isOwner={isOwner} />
             <CardContent className={classes.cardContentLarge}>
               <ProfileNameSection
                 user={state.profile}
@@ -67,7 +68,7 @@ function ProfilePage() {
           <Card className={classes.cardSmall}>
             <CardContent>
               <section className={classes.sectionSmall}>
-                <ProfilePicture size={77} isOwner={isOwner} />
+                <ProfilePicture image={image} size={77} isOwner={isOwner} />
                 <ProfileNameSection
                   user={state.profile}
                   isOwner={isOwner}
@@ -258,10 +259,6 @@ function PostCountSection({ user }) {
   );
 }
 
-PostCountSection.propTypes = {
-  user: PropTypes.object.isRequired,
-};
-
 function NameBioSection({ user }) {
   const classes = useProfilePageStyles();
 
@@ -277,10 +274,6 @@ function NameBioSection({ user }) {
     </section>
   );
 }
-
-NameBioSection.propTypes = {
-  user: PropTypes.object.isRequired,
-};
 
 function OptionsMenu({ handleCloseMenu }) {
   const classes = useProfilePageStyles();

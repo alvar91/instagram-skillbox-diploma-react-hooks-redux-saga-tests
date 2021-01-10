@@ -5,7 +5,7 @@ import { Person } from '@material-ui/icons';
 
 function ProfilePicture({
   size,
-  image = 'https://stepik.org/media/users/29243219/avatar.png?1560587353',
+  image,
   isOwner,
 }) {
   const classes = useProfilePictureStyles({ size, isOwner });
