@@ -1,16 +1,16 @@
-import React from 'react';
-import { usePostSkeletonStyles } from '../../styles';
-import { useMediaQuery } from '@material-ui/core';
+import React from "react";
+import { usePostSkeletonStyles } from "../../styles";
+import { useMediaQuery } from "@material-ui/core";
 
 export function PostSkeleton() {
   const classes = usePostSkeletonStyles();
-  const matches = useMediaQuery('(min-width: 900px)');
+  const matches = useMediaQuery("(min-width: 900px)");
 
   return (
     <div
       className={classes.container}
       style={{
-        gridTemplateColumns: matches && '600px 280px',
+        gridTemplateColumns: matches && "600px 280px",
       }}
     >
       <div className={classes.mediaSkeleton} />

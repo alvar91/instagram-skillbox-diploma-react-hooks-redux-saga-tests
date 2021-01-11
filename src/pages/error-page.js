@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import Layout from "../components/shared/Layout";
 import { Typography } from "@material-ui/core";
 import { Button } from "@material-ui/core";
@@ -16,14 +16,14 @@ function ErrorPage({ errorInfo, clearState }) {
         {errorInfo ? errorInfo : "Sorry, something went wrong."}
       </Typography>
       <Typography align="center" onClick={() => navigateToHomePage()}>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={() => navigateToHomePage()}
-            fullWidth
-          >
-            Go back to Instagram.
-          </Button>
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={() => navigateToHomePage()}
+          fullWidth
+        >
+          Go back to Instagram.
+        </Button>
       </Typography>
     </Layout>
   );

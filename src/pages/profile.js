@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useSelector, useDispatch } from "react-redux";
 import { authActions } from "../redux/auth/actions";
 import { useProfilePageStyles } from "../styles";
@@ -35,7 +35,9 @@ function ProfilePage() {
   const [showOptionsMenu, setOptionsMenu] = React.useState(false);
 
   const state = useSelector(selectState);
-  const {profile_image: { large: image }} = state.profile;
+  const {
+    profile_image: { large: image },
+  } = state.profile;
 
   const isOwner = true;
 

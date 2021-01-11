@@ -7,12 +7,10 @@ import { types } from "../types";
 // Workers
 import { authenticate } from "./workers";
 
-function* watchAuthenticate () {
-    yield takeEvery(types.AUTHENTICATE, authenticate);
+function* watchAuthenticate() {
+  yield takeEvery(types.AUTHENTICATE, authenticate);
 }
 
-export function* watchAuth () {
-    yield all([
-        call(watchAuthenticate),
-    ]);
+export function* watchAuth() {
+  yield all([call(watchAuthenticate)]);
 }

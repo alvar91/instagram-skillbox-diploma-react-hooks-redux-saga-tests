@@ -1,12 +1,10 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import { usePostStyles } from "../../styles";
 import UserCard from "../shared/UserCard";
-import  LikeButton from "../shared/LikeButton";
-import {
-  MoreIcon,
-} from "../../icons";
+import LikeButton from "../shared/LikeButton";
+import { MoreIcon } from "../../icons";
 import { Typography } from "@material-ui/core";
 import OptionsDialog from "../shared/OptionsDialog";
 import PostSkeleton from "./PostSkeleton";
@@ -30,7 +28,7 @@ function Post({ id }) {
     updated_at,
     liked_by_user,
     alt_description = "Empty description",
-    links: {html: linkToPost}
+    links: { html: linkToPost },
   } = state.posts.find((post) => post.id === id);
 
   setTimeout(() => setLoading(false), 1000);
@@ -54,7 +52,7 @@ function Post({ id }) {
         {/* Post Buttons */}
         <div className={classes.postButtonsWrapper}>
           <div className={classes.postButtons}>
-          <LikeButton id={id} liked={liked_by_user} />
+            <LikeButton id={id} liked={liked_by_user} />
           </div>
           {likes > 0 && (
             <Typography className={classes.likes} variant="subtitle2">
@@ -75,7 +73,10 @@ function Post({ id }) {
         </div>
       </article>
       {showOptionsDialog && (
-        <OptionsDialog linkToPost={linkToPost} onClose={() => setOptionsDialog(false)} />
+        <OptionsDialog
+          linkToPost={linkToPost}
+          onClose={() => setOptionsDialog(false)}
+        />
       )}
     </div>
   );

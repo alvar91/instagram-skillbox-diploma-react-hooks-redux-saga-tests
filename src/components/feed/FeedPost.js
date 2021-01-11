@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useHistory } from "react-router-dom";
 import { useFeedPostStyles } from "../../styles";
 import UserCard from "../shared/UserCard";

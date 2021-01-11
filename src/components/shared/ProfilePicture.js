@@ -1,13 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { useProfilePictureStyles } from '../../styles';
-import { Person } from '@material-ui/icons';
+import React from "react";
+import PropTypes from "prop-types";
+import { useProfilePictureStyles } from "../../styles";
+import { Person } from "@material-ui/icons";
 
-function ProfilePicture({
-  size,
-  image,
-  isOwner,
-}) {
+function ProfilePicture({ size, image, isOwner }) {
   const classes = useProfilePictureStyles({ size, isOwner });
 
   return (

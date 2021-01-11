@@ -55,7 +55,9 @@ function FeedPage() {
   React.useEffect(() => {
     let pageNumber = state.currentPage;
     pageNumber += 1;
-    const timerId = isPageBottom ? setTimeout(fetchData, 200, pageNumber) : null;
+    const timerId = isPageBottom
+      ? setTimeout(fetchData, 200, pageNumber)
+      : null;
     return () => {
       if (!timerId) clearTimeout(timerId);
     };

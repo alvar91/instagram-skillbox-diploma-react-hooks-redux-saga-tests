@@ -1,15 +1,11 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useSelector, useDispatch } from "react-redux";
 import { authActions } from "../../redux/auth/actions";
 import { api } from "../../REST";
 
 import { useNavbarStyles } from "../../styles";
-import {
-  AppBar,
-  Avatar,
-  Snackbar,
-} from "@material-ui/core";
+import { AppBar, Avatar, Snackbar } from "@material-ui/core";
 import MuiAlert from "@material-ui/lab/Alert";
 import { Button } from "@material-ui/core";
 import { Link, useHistory, useLocation } from "react-router-dom";
@@ -40,16 +36,16 @@ function Navbar({ minimalNavbar }) {
   }, [path]);
 
   React.useEffect(() => {
-    if(!state.isLoggedIn) {
+    if (!state.isLoggedIn) {
       const token = location.search.split("code=")[1];
       const error = location.search.split("error_description=")[1];
       const errorMessage = error ? error.replace(/\+/g, " ") : "";
-  
+
       if (errorMessage) {
         dispatch(authActions.emitErrorAuth(errorMessage));
         return null;
       }
-  
+
       if (token) {
         dispatch(authActions.authenticate(token));
       }
@@ -68,9 +64,7 @@ function Navbar({ minimalNavbar }) {
       <AppBar className={classes.appBar}>
         <section className={classes.section}>
           <Logo />
-          {!minimalNavbar && (
-              <Links path={path} />
-          )}
+          {!minimalNavbar && <Links path={path} />}
         </section>
       </AppBar>
 

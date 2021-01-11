@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import { useFollowSuggestionsStyles } from "../../styles";
 import { Typography } from "@material-ui/core";

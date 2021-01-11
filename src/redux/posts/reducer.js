@@ -21,9 +21,12 @@ export const postsReducer = (state = initialState, action) => {
     case types.FILL_POSTS:
       return {
         ...state,
-        posts: [...state.posts, ...removeDuplicatesById(state.posts, action.payload)],
+        posts: [
+          ...state.posts,
+          ...removeDuplicatesById(state.posts, action.payload),
+        ],
       };
-      
+
     case types.SET_CURRENT_PAGE:
       return {
         ...state,
@@ -33,7 +36,10 @@ export const postsReducer = (state = initialState, action) => {
     case types.FILL_USERS:
       return {
         ...state,
-        users: [...state.users, ...removeDuplicatesById(state.users, action.payload)],
+        users: [
+          ...state.users,
+          ...removeDuplicatesById(state.users, action.payload),
+        ],
       };
 
     case types.LIKE_POST:

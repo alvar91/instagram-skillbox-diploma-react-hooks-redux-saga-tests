@@ -1,9 +1,14 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useFollowButtonStyles } from "../../styles";
 import { Button } from "@material-ui/core";
 
-function FollowButton({ user: {links: {html: user_link}}, side }) {
+function FollowButton({
+  user: {
+    links: { html: user_link },
+  },
+  side,
+}) {
   const classes = useFollowButtonStyles({ side });
 
   const followButton = (

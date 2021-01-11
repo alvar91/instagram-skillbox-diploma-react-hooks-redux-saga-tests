@@ -8,13 +8,13 @@ function usePageBottom() {
       const isBottom =
         window.innerHeight + document.documentElement.scrollTop >=
         document.documentElement.offsetHeight - 1;
-        setBottom(isBottom);
+      setBottom(isBottom);
     }
 
     window.addEventListener("scroll", handleScroll);
     return () => {
-        window.removeEventListener("scroll", handleScroll);
-    }
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return bottom;

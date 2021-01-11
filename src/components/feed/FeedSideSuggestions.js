@@ -1,17 +1,17 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React from "react";
+import { useSelector } from "react-redux";
 
-import { useFeedSideSuggestionsStyles } from '../../styles';
-import { Paper, Typography } from '@material-ui/core';
-import UserCard from '../shared/UserCard';
-import FollowButton from '../shared/FollowButton';
-import { LoadingIcon } from '../../icons';
+import { useFeedSideSuggestionsStyles } from "../../styles";
+import { Paper, Typography } from "@material-ui/core";
+import UserCard from "../shared/UserCard";
+import FollowButton from "../shared/FollowButton";
+import { LoadingIcon } from "../../icons";
 
 function FeedSideSuggestions() {
   const classes = useFeedSideSuggestionsStyles();
 
   const selectState = (state) => ({
-    users:   state.posts.users,
+    users: state.posts.users,
     isFetchingPost: state.posts.isFetchingPost,
   });
 

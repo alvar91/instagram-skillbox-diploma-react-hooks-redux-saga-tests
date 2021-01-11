@@ -1,7 +1,7 @@
-import React from 'react';
-import Layout from '../components/shared/Layout';
-import { Typography } from '@material-ui/core';
-import { Link } from 'react-router-dom';
+import React from "react";
+import Layout from "../components/shared/Layout";
+import { Typography } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function NotFoundPage() {
   return (
@@ -12,7 +12,7 @@ function NotFoundPage() {
       <Typography align="center">
         The link you followed may be broken, or the page may have been removed.
         <Link to="/">
-          {' '}
+          {" "}
           <Typography color="primary" component="span">
             Go back to Instagram.
           </Typography>

@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { useSelector, useDispatch } from "react-redux";
 import { postsActions } from "../../redux/posts/actions";
 import { UnlikeIcon, LikeIcon } from "../../icons";
@@ -18,9 +18,9 @@ function LikeButton({ id, liked }) {
   const Icon = liked ? UnlikeIcon : LikeIcon;
   const className = liked ? classes.liked : classes.like;
   const onClick = () => {
-    if(state.isFetchingPost || !state.isLoggedIn) return;
+    if (state.isFetchingPost || !state.isLoggedIn) return;
     liked ? handleUnlike() : handleLike();
-  }
+  };
 
   function handleLike() {
     dispatch(postsActions.likePostWorker(id));

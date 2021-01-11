@@ -50,29 +50,27 @@ export const postsActions = {
     };
   },
   likePostWorker: (id) => {
-      return {
-          type:    types.LIKE_POST_WORKER,
-          payload: {id},
-      };
+    return {
+      type: types.LIKE_POST_WORKER,
+      payload: { id },
+    };
   },
   likePost: (id, likes) => {
     return {
-        type:    types.LIKE_POST,
-        payload: {id, likes},
+      type: types.LIKE_POST,
+      payload: { id, likes },
     };
-},
+  },
   unlikePostWorker: (id) => {
-      return {
-          type: types.UNLIKE_POST_WORKER,
-          payload: {id},
-      };
+    return {
+      type: types.UNLIKE_POST_WORKER,
+      payload: { id },
+    };
   },
   unlikePost: (id, likes) => {
     return {
-        type:    types.UNLIKE_POST,
-        payload: {id, likes},
+      type: types.UNLIKE_POST,
+      payload: { id, likes },
     };
-},
+  },
 };
-
-

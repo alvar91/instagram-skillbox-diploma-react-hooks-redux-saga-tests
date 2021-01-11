@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { useProfileTabsStyles } from '../../styles';
-import { Divider, Tabs, Tab, Hidden, Typography } from '@material-ui/core';
-import { GridIcon, SaveIcon } from '../../icons';
-import GridPost from '../shared/GridPost';
+import React from "react";
+import PropTypes from "prop-types";
+import { useProfileTabsStyles } from "../../styles";
+import { Divider, Tabs, Tab, Hidden, Typography } from "@material-ui/core";
+import { GridIcon, SaveIcon } from "../../icons";
+import GridPost from "../shared/GridPost";
 
 function ProfileTabs({ user, isOwner }) {
   const classes = useProfileTabsStyles();
@@ -53,12 +53,12 @@ function ProfileTabs({ user, isOwner }) {
             classes={{ indicator: classes.tabsIndicator }}
           >
             <Tab
-              icon={<GridIcon fill={value === 0 ? '#3897f0' : undefined} />}
+              icon={<GridIcon fill={value === 0 ? "#3897f0" : undefined} />}
               classes={{ root: classes.tabRoot }}
             />
             {isOwner && (
               <Tab
-                icon={<SaveIcon fill={value === 1 ? '#3897f0' : undefined} />}
+                icon={<SaveIcon fill={value === 1 ? "#3897f0" : undefined} />}
                 classes={{ root: classes.tabRoot }}
               />
             )}
@@ -86,7 +86,7 @@ function ProfilePosts({ user, isOwner }) {
         <div className={classes.noContent}>
           <div className={classes.uploadPhotoIcon} />
           <Typography variant="h4">
-            {isOwner ? 'Upload a Photo' : 'No Photos'}
+            {isOwner ? "Upload a Photo" : "No Photos"}
           </Typography>
         </div>
       </section>

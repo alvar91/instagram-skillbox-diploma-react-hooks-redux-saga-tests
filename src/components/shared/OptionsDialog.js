@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { useOptionsDialogStyles } from '../../styles';
-import { Dialog, Zoom, Button, Divider } from '@material-ui/core';
+import React from "react";
+import PropTypes from "prop-types";
+import { useOptionsDialogStyles } from "../../styles";
+import { Dialog, Zoom, Button, Divider } from "@material-ui/core";
 
 function OptionsDialog({ linkToPost, onClose }) {
   const classes = useOptionsDialogStyles();
@@ -16,7 +16,9 @@ function OptionsDialog({ linkToPost, onClose }) {
       TransitionComponent={Zoom}
     >
       <Button className={classes.button}>
-        <a href={linkToPost} target="_blank" rel="noopener noreferrer">Go to Unsplash post</a>
+        <a href={linkToPost} target="_blank" rel="noopener noreferrer">
+          Go to Unsplash post
+        </a>
       </Button>
       <Divider />
       <Button onClick={onClose} className={classes.button}>

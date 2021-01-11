@@ -1,12 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { useGridPostStyles } from '../../styles';
-import { Typography } from '@material-ui/core';
-import { useHistory } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import { useGridPostStyles } from "../../styles";
+import { Typography } from "@material-ui/core";
+import { useHistory } from "react-router-dom";
 import { getFormattedDate } from "../../utils/dateFormat";
 
 function GridPost({ post }) {
-  const { urls: {small: media} } = post;
+  const {
+    urls: { small: media },
+  } = post;
   const history = useHistory();
   const classes = useGridPostStyles();
 
@@ -32,6 +34,5 @@ function GridPost({ post }) {
 GridPost.propTypes = {
   post: PropTypes.object.isRequired,
 };
-
 
 export default GridPost;

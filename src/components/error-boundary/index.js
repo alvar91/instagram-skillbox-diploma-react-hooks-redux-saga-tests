@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-import ErrorPage from '../../pages/error-page';
+import ErrorPage from "../../pages/error-page";
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -25,7 +25,12 @@ class ErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
-      return <ErrorPage errorInfo={this.state.errorInfo} clearState={this.clearState} />;
+      return (
+        <ErrorPage
+          errorInfo={this.state.errorInfo}
+          clearState={this.clearState}
+        />
+      );
     }
     return this.props.children;
   }

@@ -1,5 +1,5 @@
-import React from 'react';
-import { useFeedPostSkeletonStyles } from '../../styles';
+import React from "react";
+import { useFeedPostSkeletonStyles } from "../../styles";
 
 function FeedPostSkeleton() {
   const classes = useFeedPostSkeletonStyles();

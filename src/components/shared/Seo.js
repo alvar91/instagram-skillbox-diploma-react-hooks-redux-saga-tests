@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
 
 function SEO({ title }) {
-  const titleText = title ? `${title} · Instagram` : 'Instagram';
+  const titleText = title ? `${title} · Instagram` : "Instagram";
 
   return (
     <Helmet>

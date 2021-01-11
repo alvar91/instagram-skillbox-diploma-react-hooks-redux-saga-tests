@@ -12,28 +12,28 @@ import { postsActions } from "../../../posts/actions";
 import { usersActions } from "../../../users/actions";
 import { book } from "../../../../navigation/book";
 
-export function* logout () {
-    try {
-        yield put(uiActions.startFetching());
+export function* logout() {
+  try {
+    yield put(uiActions.startFetching());
 
-        const response = yield apply(api, api.auth.logout);
+    const response = yield apply(api, api.auth.logout);
 
-        if (!response.ok) {
-            const { message } = yield apply(response, response.json);
+    if (!response.ok) {
+      const { message } = yield apply(response, response.json);
 
-            throw new Error(message);
-        }
-    } catch (error) {
-        yield put(uiActions.emitError(error, "logout worker"));
-    } finally {
-        yield apply(localStorage, localStorage.removeItem, ["token"]);
-        yield apply(localStorage, localStorage.removeItem, ["remember"]);
-        yield put(profileActions.clearProfile());
-        yield put(postsActions.clearPosts());
-        yield put(usersActions.clearUsers());
-        yield put(uiActions.stopFetching());
-        yield put(actions.reset("forms.user"));
-        yield put(authActions.logout());
-        yield put(replace(book.login));
+      throw new Error(message);
     }
+  } catch (error) {
+    yield put(uiActions.emitError(error, "logout worker"));
+  } finally {
+    yield apply(localStorage, localStorage.removeItem, ["token"]);
+    yield apply(localStorage, localStorage.removeItem, ["remember"]);
+    yield put(profileActions.clearProfile());
+    yield put(postsActions.clearPosts());
+    yield put(usersActions.clearUsers());
+    yield put(uiActions.stopFetching());
+    yield put(actions.reset("forms.user"));
+    yield put(authActions.logout());
+    yield put(replace(book.login));
+  }
 }
