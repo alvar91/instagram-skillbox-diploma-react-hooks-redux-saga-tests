@@ -7,8 +7,6 @@ import { api } from "../../REST";
 import { useNavbarStyles } from "../../styles";
 import {
   AppBar,
-  Hidden,
-  InputBase,
   Avatar,
   Snackbar,
 } from "@material-ui/core";
@@ -16,7 +14,7 @@ import MuiAlert from "@material-ui/lab/Alert";
 import { Button } from "@material-ui/core";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import logo from "../../images/logo.png";
-import { LoadingIcon, HomeIcon, HomeActiveIcon } from "../../icons";
+import { HomeIcon, HomeActiveIcon } from "../../icons";
 import { useNProgress } from "@tanem/react-nprogress";
 
 const selectState = (state) => ({
@@ -71,10 +69,7 @@ function Navbar({ minimalNavbar }) {
         <section className={classes.section}>
           <Logo />
           {!minimalNavbar && (
-            <>
-              <Search history={history} />
               <Links path={path} />
-            </>
           )}
         </section>
       </AppBar>
@@ -115,40 +110,40 @@ function Logo() {
   );
 }
 
-function Search() {
-  const classes = useNavbarStyles();
-  const [loading] = React.useState(false);
-  const [query, setQuery] = React.useState("");
+// function Search() {
+//   const classes = useNavbarStyles();
+//   const [loading] = React.useState(false);
+//   const [query, setQuery] = React.useState("");
 
-  React.useEffect(() => {
-    if (!query.trim()) return;
-  }, [query]);
+//   React.useEffect(() => {
+//     if (!query.trim()) return;
+//   }, [query]);
 
-  function handleClearInput() {
-    setQuery("");
-  }
+//   function handleClearInput() {
+//     setQuery("");
+//   }
 
-  return (
-    <Hidden xsDown>
+//   return (
+//     <Hidden xsDown>
 
-        <InputBase
-          className={classes.input}
-          onChange={(event) => setQuery(event.target.value)}
-          startAdornment={<span className={classes.searchIcon} />}
-          endAdornment={
-            loading ? (
-              <LoadingIcon />
-            ) : (
-              <span onClick={handleClearInput} className={classes.clearIcon} />
-            )
-          }
-          placeholder="Search"
-          value={query}
-        />
+//         <InputBase
+//           className={classes.input}
+//           onChange={(event) => setQuery(event.target.value)}
+//           startAdornment={<span className={classes.searchIcon} />}
+//           endAdornment={
+//             loading ? (
+//               <LoadingIcon />
+//             ) : (
+//               <span onClick={handleClearInput} className={classes.clearIcon} />
+//             )
+//           }
+//           placeholder="Search"
+//           value={query}
+//         />
 
-    </Hidden>
-  );
-}
+//     </Hidden>
+//   );
+// }
 
 function Links({ path }) {
   const classes = useNavbarStyles();
