@@ -1,6 +1,11 @@
 // Types
 import { types } from "./types";
 
+/**
+  * @param {string} token
+  * @return {Object}
+  */
+
 export const authActions = {
   authenticate: (token) => {
     return {
@@ -20,6 +25,13 @@ export const authActions = {
       type: types.STOP_FETCHING_AUTH,
     };
   },
+
+  /**
+  * Fill profile to the store
+  * @param {Array{}} profile
+  * @return {Object}
+  */
+
   fillProfile: (profile) => {
     return {
       type: types.FILL_PROFILE,
@@ -31,6 +43,13 @@ export const authActions = {
       type: types.LOG_OUT,
     };
   },
+
+  /**
+   * @param {Error} error
+   * @param {string | null} meta
+   * @return {Object}
+   */
+
   emitErrorAuth: (error, meta = null) => {
     return {
       type: types.EMIT_ERROR_AUTH,
