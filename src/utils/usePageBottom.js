@@ -1,3 +1,8 @@
+/**
+* Function for checking that the scroll has reached the bottom of the screen
+* @return {boolean}
+*/
+
 import React from "react";
 
 function usePageBottom() {
