@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App App correctly renders main page markup 1`] = `
+<section
+  className="makeStyles-section-4"
+>
+  <div
+    className="makeStyles-progressContainer-32"
+    style={
+      Object {
+        "opacity": 1,
+        "transition": "opacity 200ms linear",
+      }
+    }
+  >
+    <div
+      className="makeStyles-progressBar-31"
+      style={
+        Object {
+          "marginLeft": "-90%",
+          "transition": "margin-left 200ms linear",
+        }
+      }
+    >
+      <div
+        className="makeStyles-progressBackground-33"
+      />
+    </div>
+  </div>
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-8 mui-fixed MuiPaper-elevation4"
+  >
+    <section
+      className="makeStyles-section-9"
+    >
+      <div
+        className="makeStyles-logoContainer-10"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <div
+            className="makeStyles-logoWrapper-11"
+          >
+            <img
+              alt="Instagram"
+              className="makeStyles-logo-12"
+              src="logo.png"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        className="makeStyles-linksContainer-14"
+      >
+        <div
+          className="makeStyles-linksWrapper-15"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              aria-label="Home"
+              className="_8-yf5"
+              fill="#262626"
+              height={22}
+              viewBox="0 0 48 48"
+              width={22}
+            >
+              <path
+                d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"
+              />
+            </svg>
+          </a>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Login
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main
+    className="makeStyles-main-5"
+    style={
+      Object {
+        "marginTop": 60,
+      }
+    }
+  >
+    <section
+      className="makeStyles-childrenWrapper-6"
+    >
+      <div
+        className="makeStyles-children-7"
+      >
+        <div>
+          <div
+            className="makeStyles-container-1"
+          >
+            <div />
+            <div
+              className="makeStyles-container-36"
+            >
+              <svg
+                aria-label="Loading..."
+                className="makeStyles-loading-37"
+                viewBox="0 0 100 100"
+              >
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity={0}
+                  rx={3}
+                  ry={3}
+                  transform="rotate(-90 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.08333333333333333"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(-60 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.16666666666666666"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(-30 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.25"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(0 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.3333333333333333"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(30 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.4166666666666667"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(60 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.5"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(90 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.5833333333333334"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(120 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.6666666666666666"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(150 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.75"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(180 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.8333333333333334"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(210 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+                <rect
+                  fill="#555555"
+                  height={6}
+                  opacity="0.9166666666666666"
+                  rx={3}
+                  ry={3}
+                  transform="rotate(240 50 50)"
+                  width={25}
+                  x={72}
+                  y={47}
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</section>
+`;
