@@ -103,42 +103,6 @@ function Logo() {
     </div>
   );
 }
-
-// function Search() {
-//   const classes = useNavbarStyles();
-//   const [loading] = React.useState(false);
-//   const [query, setQuery] = React.useState("");
-
-//   React.useEffect(() => {
-//     if (!query.trim()) return;
-//   }, [query]);
-
-//   function handleClearInput() {
-//     setQuery("");
-//   }
-
-//   return (
-//     <Hidden xsDown>
-
-//         <InputBase
-//           className={classes.input}
-//           onChange={(event) => setQuery(event.target.value)}
-//           startAdornment={<span className={classes.searchIcon} />}
-//           endAdornment={
-//             loading ? (
-//               <LoadingIcon />
-//             ) : (
-//               <span onClick={handleClearInput} className={classes.clearIcon} />
-//             )
-//           }
-//           placeholder="Search"
-//           value={query}
-//         />
-
-//     </Hidden>
-//   );
-// }
-
 function Links({ path }) {
   const classes = useNavbarStyles();
   const state = useSelector(selectState);
