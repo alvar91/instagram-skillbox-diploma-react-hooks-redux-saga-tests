@@ -7,6 +7,7 @@ import LikeButton from "../shared/LikeButton";
 import { Typography } from "@material-ui/core";
 import FollowSuggestions from "../shared/FollowSuggestions";
 import OptionsDialog from "../shared/OptionsDialog";
+import FeedPostImage from "./FeedPostImage";
 import { getFormattedDate } from "../../utils/dateFormat";
 
 function FeedPost({ post, index }) {
@@ -43,9 +44,12 @@ function FeedPost({ post, index }) {
           <UserCard user={user} />
         </div>
         {/* Feed Post Image */}
-        <div onClick={handleOpenPostModal}>
-          <img src={media} alt={alt_description} className={classes.image} />
-        </div>
+        <FeedPostImage
+          onClick={handleOpenPostModal}
+          media={media}
+          altDescription={alt_description}
+          classImage={classes.image}
+        />
         {/* Feed Post Buttons */}
         <div className={classes.postButtonsWrapper}>
           <LikeButton id={id} liked={liked_by_user} />

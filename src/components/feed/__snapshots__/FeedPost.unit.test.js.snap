@@ -316,15 +316,20 @@ exports[`FeedPost FeedPost correctly renders markup 1`] = `
           </div>
         </Memo(UserCard)>
       </div>
-      <div
+      <FeedPostImage
+        altDescription="laptop on brown sofa"
+        classImage="makeStyles-image-4"
+        media="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400"
         onClick={[Function]}
       >
-        <img
-          alt="laptop on brown sofa"
-          className="makeStyles-image-4"
-          src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400"
-        />
-      </div>
+        <div>
+          <img
+            alt="laptop on brown sofa"
+            className="makeStyles-image-4"
+            src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400"
+          />
+        </div>
+      </FeedPostImage>
       <div
         className="makeStyles-postButtonsWrapper-6"
       >
