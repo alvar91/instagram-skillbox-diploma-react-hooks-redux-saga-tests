@@ -4,7 +4,7 @@ import renderer from "react-test-renderer";
 import FeedPostSkeleton from "./FeedPostSkeleton";
 
 describe("FeedPostSkeleton", () => {
-  it("FeedPostSkeleton correctly renders markup", () => {
+  it("FeedPostSkeleton should correctly renders markup", () => {
     const tree = renderer
       .create(
         <FeedPostSkeleton />

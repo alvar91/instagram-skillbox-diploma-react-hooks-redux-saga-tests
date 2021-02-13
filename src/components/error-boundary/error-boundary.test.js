@@ -16,7 +16,7 @@ import MockErrorComponent from "../../mock/mockErrorComponent";
 configure({ adapter: new Adapter() });
 
 describe("error-boundary", () => {
-  it("Error-boundary catch render error from children component", () => {
+  it("Error-boundary should catch render error from children component", () => {
     const testRenderer = mount(
       <Provider store={store}>
         <MemoryRouter initialEntries={[`/`]}>

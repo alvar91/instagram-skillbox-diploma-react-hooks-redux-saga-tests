@@ -13,7 +13,7 @@ import { Provider } from "react-redux";
 import { store } from "../../redux/store";
 
 describe("FeedPost", () => {
-  it("FeedPost correctly renders markup", () => {
+  it("FeedPost should correctly renders markup", () => {
     const tree = mount(
       <Provider store={store}>
         <FeedPost post={mockPost} index={1} />
