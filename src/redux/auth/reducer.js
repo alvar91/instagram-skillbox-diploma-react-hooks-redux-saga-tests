@@ -1,6 +1,6 @@
 import { types } from "./types";
 
-const initialState = {
+export const initialState = {
   isFetchingAuth: false,
   isLoggedIn: false,
   profile: [],
