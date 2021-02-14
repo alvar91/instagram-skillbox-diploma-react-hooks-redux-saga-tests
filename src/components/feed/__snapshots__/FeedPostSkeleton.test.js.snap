@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FeedPostSkeleton FeedPostSkeleton correctly renders markup 1`] = `
+exports[`FeedPostSkeleton FeedPostSkeleton should correctly renders markup 1`] = `
 <div
   className="makeStyles-container-1"
 >

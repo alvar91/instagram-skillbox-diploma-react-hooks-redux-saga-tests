@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function FeedPostImage({media, altDescription, classImage}) {
+export default function FeedPostImage({media, altDescription, classImage, handleOpenPostModal}) {
     return (
         <div>
-          <img src={media} alt={altDescription} className={classImage} />
+          <img src={media} onClick={handleOpenPostModal} alt={altDescription} className={classImage} />
         </div>
     )
 }

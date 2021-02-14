@@ -45,7 +45,7 @@ function FeedPost({ post, index }) {
         </div>
         {/* Feed Post Image */}
         <FeedPostImage
-          onClick={handleOpenPostModal}
+          handleOpenPostModal={handleOpenPostModal}
           media={media}
           altDescription={alt_description}
           classImage={classes.image}
