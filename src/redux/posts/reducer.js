@@ -1,7 +1,7 @@
 import { types } from "./types";
 import removeDuplicatesById from "../../utils/removeDuplicatesById";
 
-const initialState = {
+export const initialState = {
   isFetchingPost: false,
   currentPage: 1,
   posts: [],
