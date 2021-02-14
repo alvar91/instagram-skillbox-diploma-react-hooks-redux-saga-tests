@@ -47,6 +47,7 @@ function Navbar({ minimalNavbar }) {
       }
 
       if (token) {
+        console.log(token)
         dispatch(authActions.authenticate(token));
       }
       history.push("/");

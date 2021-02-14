@@ -645,3 +645,649 @@ exports[`FeedPost FeedPost correctly renders markup 1`] = `
   </FeedPost>
 </Provider>
 `;
+
+exports[`FeedPost FeedPost should correctly renders markup 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <FeedPost
+    index={1}
+    post={
+      Object {
+        "alt_description": "laptop on brown sofa",
+        "blur_hash": "LHEf7wbbM{w[_NM{-:xZRiVs%gNG",
+        "categories": Array [],
+        "color": "#260c0c",
+        "created_at": "2020-07-01T18:30:14-04:00",
+        "current_user_collections": Array [],
+        "description": null,
+        "height": 4016,
+        "id": "1gLdTsX3_70",
+        "liked_by_user": false,
+        "likes": 738,
+        "links": Object {
+          "download": "https://unsplash.com/photos/1gLdTsX3_70/download",
+          "download_location": "https://api.unsplash.com/photos/1gLdTsX3_70/download",
+          "html": "https://unsplash.com/photos/1gLdTsX3_70",
+          "self": "https://api.unsplash.com/photos/1gLdTsX3_70",
+        },
+        "promoted_at": null,
+        "sponsorship": Object {
+          "impression_urls": Array [
+            "https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=8281535&rnd=[timestamp]&gdpr=&gdpr_consent=&redir=https://secure.insightexpressai.com/adserver/1pixel.gif",
+          ],
+          "sponsor": Object {
+            "accepted_tos": true,
+            "bio": "Designed to be the best, with cutting edge technologies, exceptional build quality, unique materials and powerful features.",
+            "first_name": "XPS",
+            "id": "2DC3GyeqWjI",
+            "instagram_username": "dell",
+            "last_name": null,
+            "links": Object {
+              "followers": "https://api.unsplash.com/users/xps/followers",
+              "following": "https://api.unsplash.com/users/xps/following",
+              "html": "https://unsplash.com/@xps",
+              "likes": "https://api.unsplash.com/users/xps/likes",
+              "photos": "https://api.unsplash.com/users/xps/photos",
+              "portfolio": "https://api.unsplash.com/users/xps/portfolio",
+              "self": "https://api.unsplash.com/users/xps",
+            },
+            "location": null,
+            "name": "XPS",
+            "portfolio_url": "http://www.dell.com/xps",
+            "profile_image": Object {
+              "large": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+              "medium": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+              "small": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+            },
+            "total_collections": 0,
+            "total_likes": 0,
+            "total_photos": 22,
+            "twitter_username": "Dell",
+            "updated_at": "2021-02-12T14:33:51-05:00",
+            "username": "xps",
+          },
+          "tagline": "Designed to be the Best",
+          "tagline_url": "http://www.dell.com/xps",
+        },
+        "updated_at": "2021-02-11T23:12:42-05:00",
+        "urls": Object {
+          "full": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=85",
+          "raw": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1",
+          "regular": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=1080",
+          "small": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400",
+          "thumb": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=200",
+        },
+        "user": Object {
+          "accepted_tos": true,
+          "bio": "Designed to be the best, with cutting edge technologies, exceptional build quality, unique materials and powerful features.",
+          "first_name": "XPS",
+          "id": "2DC3GyeqWjI",
+          "instagram_username": "dell",
+          "last_name": null,
+          "links": Object {
+            "followers": "https://api.unsplash.com/users/xps/followers",
+            "following": "https://api.unsplash.com/users/xps/following",
+            "html": "https://unsplash.com/@xps",
+            "likes": "https://api.unsplash.com/users/xps/likes",
+            "photos": "https://api.unsplash.com/users/xps/photos",
+            "portfolio": "https://api.unsplash.com/users/xps/portfolio",
+            "self": "https://api.unsplash.com/users/xps",
+          },
+          "location": null,
+          "name": "XPS",
+          "portfolio_url": "http://www.dell.com/xps",
+          "profile_image": Object {
+            "large": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+            "medium": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+            "small": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+          },
+          "total_collections": 0,
+          "total_likes": 0,
+          "total_photos": 22,
+          "twitter_username": "Dell",
+          "updated_at": "2021-02-12T14:33:51-05:00",
+          "username": "xps",
+        },
+        "width": 6016,
+      }
+    }
+  >
+    <article
+      className="makeStyles-article-1"
+      style={
+        Object {
+          "marginBottom": 30,
+        }
+      }
+    >
+      <div
+        className="makeStyles-postHeader-2"
+      >
+        <Memo(UserCard)
+          user={
+            Object {
+              "accepted_tos": true,
+              "bio": "Designed to be the best, with cutting edge technologies, exceptional build quality, unique materials and powerful features.",
+              "first_name": "XPS",
+              "id": "2DC3GyeqWjI",
+              "instagram_username": "dell",
+              "last_name": null,
+              "links": Object {
+                "followers": "https://api.unsplash.com/users/xps/followers",
+                "following": "https://api.unsplash.com/users/xps/following",
+                "html": "https://unsplash.com/@xps",
+                "likes": "https://api.unsplash.com/users/xps/likes",
+                "photos": "https://api.unsplash.com/users/xps/photos",
+                "portfolio": "https://api.unsplash.com/users/xps/portfolio",
+                "self": "https://api.unsplash.com/users/xps",
+              },
+              "location": null,
+              "name": "XPS",
+              "portfolio_url": "http://www.dell.com/xps",
+              "profile_image": Object {
+                "large": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                "medium": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                "small": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+              },
+              "total_collections": 0,
+              "total_likes": 0,
+              "total_photos": 22,
+              "twitter_username": "Dell",
+              "updated_at": "2021-02-12T14:33:51-05:00",
+              "username": "xps",
+            }
+          }
+        >
+          <div
+            className="makeStyles-wrapper-28"
+          >
+            <a
+              href="https://unsplash.com/@xps"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <WithStyles(ForwardRef(Avatar))
+                alt="User avatar"
+                className="makeStyles-avatar-26 makeStyles-avatar-30"
+                src="https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+              >
+                <ForwardRef(Avatar)
+                  alt="User avatar"
+                  className="makeStyles-avatar-26 makeStyles-avatar-30"
+                  classes={
+                    Object {
+                      "circle": "MuiAvatar-circle",
+                      "circular": "MuiAvatar-circular",
+                      "colorDefault": "MuiAvatar-colorDefault",
+                      "fallback": "MuiAvatar-fallback",
+                      "img": "MuiAvatar-img",
+                      "root": "MuiAvatar-root",
+                      "rounded": "MuiAvatar-rounded",
+                      "square": "MuiAvatar-square",
+                    }
+                  }
+                  src="https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                >
+                  <div
+                    className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-26 makeStyles-avatar-30"
+                  >
+                    <img
+                      alt="User avatar"
+                      className="MuiAvatar-img"
+                      src="https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    />
+                  </div>
+                </ForwardRef(Avatar)>
+              </WithStyles(ForwardRef(Avatar))>
+            </a>
+            <div
+              className="makeStyles-nameWrapper-29"
+            >
+              <a
+                href="https://unsplash.com/@xps"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <WithStyles(ForwardRef(Typography))
+                  className="makeStyles-typography-27"
+                  variant="subtitle2"
+                >
+                  <ForwardRef(Typography)
+                    className="makeStyles-typography-27"
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter",
+                        "alignJustify": "MuiTypography-alignJustify",
+                        "alignLeft": "MuiTypography-alignLeft",
+                        "alignRight": "MuiTypography-alignRight",
+                        "body1": "MuiTypography-body1",
+                        "body2": "MuiTypography-body2",
+                        "button": "MuiTypography-button",
+                        "caption": "MuiTypography-caption",
+                        "colorError": "MuiTypography-colorError",
+                        "colorInherit": "MuiTypography-colorInherit",
+                        "colorPrimary": "MuiTypography-colorPrimary",
+                        "colorSecondary": "MuiTypography-colorSecondary",
+                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                        "displayBlock": "MuiTypography-displayBlock",
+                        "displayInline": "MuiTypography-displayInline",
+                        "gutterBottom": "MuiTypography-gutterBottom",
+                        "h1": "MuiTypography-h1",
+                        "h2": "MuiTypography-h2",
+                        "h3": "MuiTypography-h3",
+                        "h4": "MuiTypography-h4",
+                        "h5": "MuiTypography-h5",
+                        "h6": "MuiTypography-h6",
+                        "noWrap": "MuiTypography-noWrap",
+                        "overline": "MuiTypography-overline",
+                        "paragraph": "MuiTypography-paragraph",
+                        "root": "MuiTypography-root",
+                        "srOnly": "MuiTypography-srOnly",
+                        "subtitle1": "MuiTypography-subtitle1",
+                        "subtitle2": "MuiTypography-subtitle2",
+                      }
+                    }
+                    variant="subtitle2"
+                  >
+                    <h6
+                      className="MuiTypography-root makeStyles-typography-27 MuiTypography-subtitle2"
+                    >
+                      xps
+                    </h6>
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+              </a>
+              <WithStyles(ForwardRef(Typography))
+                className="makeStyles-typography-27"
+                color="textSecondary"
+                variant="body2"
+              >
+                <ForwardRef(Typography)
+                  className="makeStyles-typography-27"
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTypography-alignCenter",
+                      "alignJustify": "MuiTypography-alignJustify",
+                      "alignLeft": "MuiTypography-alignLeft",
+                      "alignRight": "MuiTypography-alignRight",
+                      "body1": "MuiTypography-body1",
+                      "body2": "MuiTypography-body2",
+                      "button": "MuiTypography-button",
+                      "caption": "MuiTypography-caption",
+                      "colorError": "MuiTypography-colorError",
+                      "colorInherit": "MuiTypography-colorInherit",
+                      "colorPrimary": "MuiTypography-colorPrimary",
+                      "colorSecondary": "MuiTypography-colorSecondary",
+                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                      "displayBlock": "MuiTypography-displayBlock",
+                      "displayInline": "MuiTypography-displayInline",
+                      "gutterBottom": "MuiTypography-gutterBottom",
+                      "h1": "MuiTypography-h1",
+                      "h2": "MuiTypography-h2",
+                      "h3": "MuiTypography-h3",
+                      "h4": "MuiTypography-h4",
+                      "h5": "MuiTypography-h5",
+                      "h6": "MuiTypography-h6",
+                      "noWrap": "MuiTypography-noWrap",
+                      "overline": "MuiTypography-overline",
+                      "paragraph": "MuiTypography-paragraph",
+                      "root": "MuiTypography-root",
+                      "srOnly": "MuiTypography-srOnly",
+                      "subtitle1": "MuiTypography-subtitle1",
+                      "subtitle2": "MuiTypography-subtitle2",
+                    }
+                  }
+                  color="textSecondary"
+                  variant="body2"
+                >
+                  <p
+                    className="MuiTypography-root makeStyles-typography-27 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                  >
+                    XPS
+                  </p>
+                </ForwardRef(Typography)>
+              </WithStyles(ForwardRef(Typography))>
+            </div>
+          </div>
+        </Memo(UserCard)>
+      </div>
+      <FeedPostImage
+        altDescription="laptop on brown sofa"
+        classImage="makeStyles-image-4"
+        media="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400"
+        onClick={[Function]}
+      >
+        <div>
+          <img
+            alt="laptop on brown sofa"
+            className="makeStyles-image-4"
+            src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400"
+          />
+        </div>
+      </FeedPostImage>
+      <div
+        className="makeStyles-postButtonsWrapper-6"
+      >
+        <LikeButton
+          id="1gLdTsX3_70"
+          liked={false}
+        >
+          <LikeIcon
+            onClick={[Function]}
+          >
+            <svg
+              aria-label="Like"
+              fill="#262626"
+              height={24}
+              onClick={[Function]}
+              viewBox="0 0 48 48"
+              width={24}
+            >
+              <path
+                clipRule="evenodd"
+                d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </LikeIcon>
+        </LikeButton>
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-likes-9"
+          variant="subtitle2"
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-likes-9"
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+            variant="subtitle2"
+          >
+            <h6
+              className="MuiTypography-root makeStyles-likes-9 MuiTypography-subtitle2"
+            >
+              <span>
+                738 likes
+              </span>
+            </h6>
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-datePosted-8"
+          color="textSecondary"
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-datePosted-8"
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+            color="textSecondary"
+          >
+            <p
+              className="MuiTypography-root makeStyles-datePosted-8 MuiTypography-body1 MuiTypography-colorTextSecondary"
+            >
+              Fri, Feb 12, 2021
+            </p>
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+      </div>
+    </article>
+    <Memo(FollowSuggestions)>
+      <div
+        className="makeStyles-container-31"
+      >
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-typography-33"
+          color="textSecondary"
+          variant="subtitle2"
+        >
+          <ForwardRef(Typography)
+            className="makeStyles-typography-33"
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+            color="textSecondary"
+            variant="subtitle2"
+          >
+            <h6
+              className="MuiTypography-root makeStyles-typography-33 MuiTypography-subtitle2 MuiTypography-colorTextSecondary"
+            >
+              Suggestions For You
+            </h6>
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+        <Slider
+          arrows={true}
+          className="makeStyles-slide-32"
+          dots={false}
+          easing="ease-in-out"
+          infinite={true}
+          slidesToScroll={3}
+          speed={1000}
+          swipeToSlide={true}
+          touchThreshold={1000}
+          variableWidth={true}
+        >
+          <InnerSlider
+            accessibility={true}
+            adaptiveHeight={false}
+            afterChange={null}
+            appendDots={[Function]}
+            arrows={true}
+            autoplay={false}
+            autoplaySpeed={3000}
+            beforeChange={null}
+            centerMode={false}
+            centerPadding="50px"
+            className="makeStyles-slide-32"
+            cssEase="ease"
+            customPaging={[Function]}
+            dots={false}
+            dotsClass="slick-dots"
+            draggable={true}
+            easing="ease-in-out"
+            edgeFriction={0.35}
+            fade={false}
+            focusOnSelect={false}
+            infinite={true}
+            initialSlide={0}
+            lazyLoad={null}
+            nextArrow={null}
+            onEdge={null}
+            onInit={null}
+            onLazyLoadError={null}
+            onReInit={null}
+            pauseOnDotsHover={false}
+            pauseOnFocus={false}
+            pauseOnHover={true}
+            prevArrow={null}
+            responsive={null}
+            rows={1}
+            rtl={false}
+            slide="div"
+            slidesPerRow={1}
+            slidesToScroll={3}
+            slidesToShow={1}
+            speed={1000}
+            swipe={true}
+            swipeEvent={null}
+            swipeToSlide={true}
+            touchMove={true}
+            touchThreshold={1000}
+            unslick={true}
+            useCSS={true}
+            useTransform={true}
+            variableWidth={true}
+            vertical={false}
+            waitForAnimate={true}
+          >
+            <div
+              className="slick-slider makeStyles-slide-32 slick-initialized"
+            >
+              <div
+                className="slick-list"
+              >
+                <Track
+                  centerMode={false}
+                  centerPadding="50px"
+                  cssEase="ease"
+                  currentSlide={-1}
+                  fade={false}
+                  focusOnSelect={null}
+                  infinite={true}
+                  lazyLoad={null}
+                  lazyLoadedList={Array []}
+                  listHeight={0}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseOver={[Function]}
+                  rtl={false}
+                  slideCount={0}
+                  slideHeight={0}
+                  slideWidth={0}
+                  slidesToScroll={3}
+                  slidesToShow={1}
+                  speed={1000}
+                  trackStyle={
+                    Object {
+                      "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                      "WebkitTransition": "-webkit-transform 1000ms ease",
+                      "msTransform": "translateX(0px)",
+                      "opacity": 1,
+                      "transform": "translate3d(0px, 0px, 0px)",
+                      "transition": "transform 1000ms ease",
+                    }
+                  }
+                  unslick={true}
+                  variableWidth={true}
+                  vertical={false}
+                >
+                  <div
+                    className="slick-track"
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseOver={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                        "WebkitTransition": "-webkit-transform 1000ms ease",
+                        "msTransform": "translateX(0px)",
+                        "opacity": 1,
+                        "transform": "translate3d(0px, 0px, 0px)",
+                        "transition": "transform 1000ms ease",
+                      }
+                    }
+                  />
+                </Track>
+              </div>
+            </div>
+          </InnerSlider>
+        </Slider>
+      </div>
+    </Memo(FollowSuggestions)>
+  </FeedPost>
+</Provider>
+`;
