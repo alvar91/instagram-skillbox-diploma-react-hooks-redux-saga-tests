@@ -7,25 +7,22 @@ import { MemoryRouter } from "react-router-dom";
 
 configure({ adapter: new Adapter() });
 
-// Instruments
-import { Provider } from "react-redux";
-import { store } from "../../redux/store";
-
-const mockHistoryPush = jest.fn();
-
-jest.mock("react-router-dom", () => ({
-  ...jest.requireActual("react-router-dom"),
-  useHistory: () => ({
-    push: mockHistoryPush,
-  }),
-}));
-
 describe("FeedPostImage should be triggered with events", () => {
+  beforeAll(() => {
+    const mockHistoryPush = jest.fn();
+    jest.mock("react-router-dom", () => ({
+      ...jest.requireActual("react-router-dom"),
+      useHistory: () => ({
+        push: mockHistoryPush,
+      }),
+    }));
+  });
+
   it("handleOpenPostModal should be triggered by clicking", () => {
-    const mockHandleCLick = jest.fn();
+    const mockHandleClick = jest.fn();
     const tree = shallow(
       <MemoryRouter>
-          <FeedPostImage onClick={mockHandleCLick} />
+        <FeedPostImage onClick={mockHandleClick} />
       </MemoryRouter>
     );
 
@@ -33,6 +30,6 @@ describe("FeedPostImage should be triggered with events", () => {
     expect(target.length).toBeGreaterThan(0);
     target.simulate("click");
 
-    expect(mockHandleCLick).toBeCalledTimes(1);
+    expect(mockHandleClick).toBeCalledTimes(1);
   });
 });

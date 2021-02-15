@@ -6,13 +6,11 @@ import UserCard from "../shared/UserCard";
 import LikeButton from "../shared/LikeButton";
 import { Typography } from "@material-ui/core";
 import FollowSuggestions from "../shared/FollowSuggestions";
-import OptionsDialog from "../shared/OptionsDialog";
 import FeedPostImage from "./FeedPostImage";
 import { getFormattedDate } from "../../utils/dateFormat";
 
 function FeedPost({ post, index }) {
   const classes = useFeedPostStyles();
-  const [showOptionsDialog, setOptionsDialog] = React.useState(false);
   const {
     id,
     urls: { small: media },
@@ -64,9 +62,6 @@ function FeedPost({ post, index }) {
         </div>
       </article>
       {showFollowSuggestions && <FollowSuggestions />}
-      {showOptionsDialog && (
-        <OptionsDialog onClose={() => setOptionsDialog(false)} />
-      )}
     </>
   );
 }

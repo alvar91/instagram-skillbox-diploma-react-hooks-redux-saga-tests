@@ -15,7 +15,7 @@ configure({ adapter: new Adapter() });
 /**
  * Setup function for Layout component.
  * @param {object} props
- * @returns {ReactTree}
+ * @returns {RenderTree}
  */
 const setupRenderTree = (props) => {
   return renderer.create(
@@ -32,7 +32,7 @@ const setupRenderTree = (props) => {
 /**
  * Setup function for Layout component.
  * @param {object} props
- * @returns {ReactTree}
+ * @returns {ReactRenderer}
  */
 const setupTestRenderer = (props) => {
   return mount(
@@ -49,16 +49,18 @@ const setupTestRenderer = (props) => {
 describe("Layout", () => {
   let tree;
   let testRenderer;
+  let component;
   const props = { title: "Test title" };
   beforeAll(() => {
     tree = setupRenderTree(props);
     testRenderer = setupTestRenderer(props);
+    component = testRenderer.find(Layout);
   });
   it("Layout should correctly renders markup", () => {
     expect(tree).toMatchSnapshot();
   });
   it("Layout should contain correct props", () => {
-    expect(testRenderer.find(Layout)).toHaveLength(1);
-    expect(testRenderer.find(Layout).props()).toMatchObject(props);
+    expect(component).toHaveLength(1);
+    expect(component.props()).toMatchObject(props);
   });
 });
