@@ -9,7 +9,7 @@ import { rootSaga } from "../redux/rootSaga";
 // Mock state
 import {mockInitialStore} from "./mockInitialStore";
 
-const mockReduxStore = createStore(
+export const mockReduxStore = createStore(
   rootReducer,
   mockInitialStore,
   composeEnhancers(applyMiddleware(...middleware))
@@ -17,4 +17,3 @@ const mockReduxStore = createStore(
 
 sagaMiddleware.run(rootSaga);
 
-export { mockReduxStore };
