@@ -1,4 +1,4 @@
-const mockInitialStore = {
+export const mockInitialStore = {
   /* posts state */ 
   posts: {
     isFetchingPost: false,
