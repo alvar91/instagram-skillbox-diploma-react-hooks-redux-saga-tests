@@ -1,57 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Post Post with initial state Post should correctly renders markup 1`] = `
-<Provider
-  store={
-    Object {
-      "dispatch": [Function],
-      "getState": [Function],
-      "replaceReducer": [Function],
-      "subscribe": [Function],
-      Symbol(observable): [Function],
-    }
-  }
->
-  <Memo(Post)
-    id="1gLdTsX3_70"
-  >
-    <PostSkeleton>
-      <div
-        className="makeStyles-container-27"
-        style={
-          Object {
-            "gridTemplateColumns": false,
-          }
-        }
-      >
-        <div
-          className="makeStyles-mediaSkeleton-33"
-        />
-        <div>
-          <div
-            className="makeStyles-headerSkeleton-28"
-          >
-            <div
-              className="makeStyles-avatarSkeleton-29"
-            />
-            <div
-              className="makeStyles-headerTextSkeleton-30"
-            >
-              <div
-                className="makeStyles-primaryTextSkeleton-31"
-              />
-              <div
-                className="makeStyles-secondaryTextSkeleton-32"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </PostSkeleton>
-  </Memo(Post)>
-</Provider>
-`;
-
 exports[`Post Post with mock post state and skeleton Post should correctly renders markup 1`] = `
 <Provider
   store={

@@ -30,7 +30,7 @@ const selectState = (state) => ({
   errorMessage: state.auth.errorMessage,
 });
 
-function ProfilePage() {
+export function ProfilePage() {
   const classes = useProfilePageStyles();
   const [showOptionsMenu, setOptionsMenu] = React.useState(false);
 
@@ -89,7 +89,7 @@ function ProfilePage() {
   );
 }
 
-function ProfileNameSection({ user, isOwner, handleOptionsMenuClick }) {
+export function ProfileNameSection({ user, isOwner, handleOptionsMenuClick }) {
   const classes = useProfilePageStyles();
   const [showUnfollowDialog, setUnfollowDialog] = React.useState(false);
 
