@@ -242,40 +242,6 @@ export const mockUsers = [
     accepted_tos: true,
   },
   {
-    id: "WHDTLoaHn3Q",
-    updated_at: "2021-02-14T06:34:22-05:00",
-    username: "sincerelymedia",
-    name: "Sincerely Media",
-    first_name: "Sincerely Media",
-    last_name: null,
-    twitter_username: null,
-    portfolio_url: "https://www.sincerelymedia.com/",
-    bio: "An Instagram Coach who also loves taking photos | @sincerelymedia",
-    location: "Port Elizabeth, South Africa",
-    links: {
-      self: "https://api.unsplash.com/users/sincerelymedia",
-      html: "https://unsplash.com/@sincerelymedia",
-      photos: "https://api.unsplash.com/users/sincerelymedia/photos",
-      likes: "https://api.unsplash.com/users/sincerelymedia/likes",
-      portfolio: "https://api.unsplash.com/users/sincerelymedia/portfolio",
-      following: "https://api.unsplash.com/users/sincerelymedia/following",
-      followers: "https://api.unsplash.com/users/sincerelymedia/followers",
-    },
-    profile_image: {
-      small:
-        "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
-      medium:
-        "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
-      large:
-        "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
-    },
-    instagram_username: "sincerelymedia",
-    total_collections: 58,
-    total_likes: 687,
-    total_photos: 3060,
-    accepted_tos: true,
-  },
-  {
     id: "VxYqltf367I",
     updated_at: "2021-02-14T06:54:23-05:00",
     username: "sajad_sqs9966b",
