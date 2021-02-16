@@ -17,6 +17,7 @@ import { store } from "../../redux/store";
 /**
  * Setup function for FeedPost component.
  * @param {object} props
+ * @param {history} mockHistory
  * @returns {ReactRenderer}
  */
 const setupTestRenderer = (props, mockHistory) => {

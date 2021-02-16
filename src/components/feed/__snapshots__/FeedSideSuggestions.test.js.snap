@@ -1,0 +1,2629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedSideSuggestions FeedSideSuggestions with fetching posts state FeedSideSuggestions should correctly renders markup with fetching posts state 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Memo(FeedSideSuggestions)>
+    <article
+      className="makeStyles-article-1"
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-4"
+      >
+        <ForwardRef(Paper)
+          className="makeStyles-paper-4"
+          classes={
+            Object {
+              "elevation0": "MuiPaper-elevation0",
+              "elevation1": "MuiPaper-elevation1",
+              "elevation10": "MuiPaper-elevation10",
+              "elevation11": "MuiPaper-elevation11",
+              "elevation12": "MuiPaper-elevation12",
+              "elevation13": "MuiPaper-elevation13",
+              "elevation14": "MuiPaper-elevation14",
+              "elevation15": "MuiPaper-elevation15",
+              "elevation16": "MuiPaper-elevation16",
+              "elevation17": "MuiPaper-elevation17",
+              "elevation18": "MuiPaper-elevation18",
+              "elevation19": "MuiPaper-elevation19",
+              "elevation2": "MuiPaper-elevation2",
+              "elevation20": "MuiPaper-elevation20",
+              "elevation21": "MuiPaper-elevation21",
+              "elevation22": "MuiPaper-elevation22",
+              "elevation23": "MuiPaper-elevation23",
+              "elevation24": "MuiPaper-elevation24",
+              "elevation3": "MuiPaper-elevation3",
+              "elevation4": "MuiPaper-elevation4",
+              "elevation5": "MuiPaper-elevation5",
+              "elevation6": "MuiPaper-elevation6",
+              "elevation7": "MuiPaper-elevation7",
+              "elevation8": "MuiPaper-elevation8",
+              "elevation9": "MuiPaper-elevation9",
+              "outlined": "MuiPaper-outlined",
+              "root": "MuiPaper-root",
+              "rounded": "MuiPaper-rounded",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root makeStyles-paper-4 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <WithStyles(ForwardRef(Typography))
+              align="left"
+              className="makeStyles-typography-3"
+              color="textSecondary"
+              component="h2"
+              gutterBottom={true}
+              variant="subtitle2"
+            >
+              <ForwardRef(Typography)
+                align="left"
+                className="makeStyles-typography-3"
+                classes={
+                  Object {
+                    "alignCenter": "MuiTypography-alignCenter",
+                    "alignJustify": "MuiTypography-alignJustify",
+                    "alignLeft": "MuiTypography-alignLeft",
+                    "alignRight": "MuiTypography-alignRight",
+                    "body1": "MuiTypography-body1",
+                    "body2": "MuiTypography-body2",
+                    "button": "MuiTypography-button",
+                    "caption": "MuiTypography-caption",
+                    "colorError": "MuiTypography-colorError",
+                    "colorInherit": "MuiTypography-colorInherit",
+                    "colorPrimary": "MuiTypography-colorPrimary",
+                    "colorSecondary": "MuiTypography-colorSecondary",
+                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                    "displayBlock": "MuiTypography-displayBlock",
+                    "displayInline": "MuiTypography-displayInline",
+                    "gutterBottom": "MuiTypography-gutterBottom",
+                    "h1": "MuiTypography-h1",
+                    "h2": "MuiTypography-h2",
+                    "h3": "MuiTypography-h3",
+                    "h4": "MuiTypography-h4",
+                    "h5": "MuiTypography-h5",
+                    "h6": "MuiTypography-h6",
+                    "noWrap": "MuiTypography-noWrap",
+                    "overline": "MuiTypography-overline",
+                    "paragraph": "MuiTypography-paragraph",
+                    "root": "MuiTypography-root",
+                    "srOnly": "MuiTypography-srOnly",
+                    "subtitle1": "MuiTypography-subtitle1",
+                    "subtitle2": "MuiTypography-subtitle2",
+                  }
+                }
+                color="textSecondary"
+                component="h2"
+                gutterBottom={true}
+                variant="subtitle2"
+              >
+                <h2
+                  className="MuiTypography-root makeStyles-typography-3 MuiTypography-subtitle2 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignLeft"
+                >
+                  Suggestions For You
+                </h2>
+              </ForwardRef(Typography)>
+            </WithStyles(ForwardRef(Typography))>
+            <LoadingIcon>
+              <div>
+                <div
+                  className="makeStyles-container-5"
+                >
+                  <svg
+                    aria-label="Loading..."
+                    className="makeStyles-loadingSvg-6"
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity={0}
+                      rx={5}
+                      ry={5}
+                      transform="rotate(-90 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.125"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(-45 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.25"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(0 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.375"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(45 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.5"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(90 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.625"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(135 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.75"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(180 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                    <rect
+                      fill="#555555"
+                      height={10}
+                      opacity="0.875"
+                      rx={5}
+                      ry={5}
+                      transform="rotate(225 50 50)"
+                      width={28}
+                      x={67}
+                      y={45}
+                    />
+                  </svg>
+                </div>
+              </div>
+            </LoadingIcon>
+          </div>
+        </ForwardRef(Paper)>
+      </WithStyles(ForwardRef(Paper))>
+    </article>
+  </Memo(FeedSideSuggestions)>
+</Provider>
+`;
+
+exports[`FeedSideSuggestions FeedSideSuggestions with fetching posts state FeedSideSuggestions with mock users state FeedSideSuggestions should correctly renders markup mock users state 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Memo(FeedSideSuggestions)>
+    <article
+      className="makeStyles-article-1"
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-4"
+      >
+        <ForwardRef(Paper)
+          className="makeStyles-paper-4"
+          classes={
+            Object {
+              "elevation0": "MuiPaper-elevation0",
+              "elevation1": "MuiPaper-elevation1",
+              "elevation10": "MuiPaper-elevation10",
+              "elevation11": "MuiPaper-elevation11",
+              "elevation12": "MuiPaper-elevation12",
+              "elevation13": "MuiPaper-elevation13",
+              "elevation14": "MuiPaper-elevation14",
+              "elevation15": "MuiPaper-elevation15",
+              "elevation16": "MuiPaper-elevation16",
+              "elevation17": "MuiPaper-elevation17",
+              "elevation18": "MuiPaper-elevation18",
+              "elevation19": "MuiPaper-elevation19",
+              "elevation2": "MuiPaper-elevation2",
+              "elevation20": "MuiPaper-elevation20",
+              "elevation21": "MuiPaper-elevation21",
+              "elevation22": "MuiPaper-elevation22",
+              "elevation23": "MuiPaper-elevation23",
+              "elevation24": "MuiPaper-elevation24",
+              "elevation3": "MuiPaper-elevation3",
+              "elevation4": "MuiPaper-elevation4",
+              "elevation5": "MuiPaper-elevation5",
+              "elevation6": "MuiPaper-elevation6",
+              "elevation7": "MuiPaper-elevation7",
+              "elevation8": "MuiPaper-elevation8",
+              "elevation9": "MuiPaper-elevation9",
+              "outlined": "MuiPaper-outlined",
+              "root": "MuiPaper-root",
+              "rounded": "MuiPaper-rounded",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root makeStyles-paper-4 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <WithStyles(ForwardRef(Typography))
+              align="left"
+              className="makeStyles-typography-3"
+              color="textSecondary"
+              component="h2"
+              gutterBottom={true}
+              variant="subtitle2"
+            >
+              <ForwardRef(Typography)
+                align="left"
+                className="makeStyles-typography-3"
+                classes={
+                  Object {
+                    "alignCenter": "MuiTypography-alignCenter",
+                    "alignJustify": "MuiTypography-alignJustify",
+                    "alignLeft": "MuiTypography-alignLeft",
+                    "alignRight": "MuiTypography-alignRight",
+                    "body1": "MuiTypography-body1",
+                    "body2": "MuiTypography-body2",
+                    "button": "MuiTypography-button",
+                    "caption": "MuiTypography-caption",
+                    "colorError": "MuiTypography-colorError",
+                    "colorInherit": "MuiTypography-colorInherit",
+                    "colorPrimary": "MuiTypography-colorPrimary",
+                    "colorSecondary": "MuiTypography-colorSecondary",
+                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                    "displayBlock": "MuiTypography-displayBlock",
+                    "displayInline": "MuiTypography-displayInline",
+                    "gutterBottom": "MuiTypography-gutterBottom",
+                    "h1": "MuiTypography-h1",
+                    "h2": "MuiTypography-h2",
+                    "h3": "MuiTypography-h3",
+                    "h4": "MuiTypography-h4",
+                    "h5": "MuiTypography-h5",
+                    "h6": "MuiTypography-h6",
+                    "noWrap": "MuiTypography-noWrap",
+                    "overline": "MuiTypography-overline",
+                    "paragraph": "MuiTypography-paragraph",
+                    "root": "MuiTypography-root",
+                    "srOnly": "MuiTypography-srOnly",
+                    "subtitle1": "MuiTypography-subtitle1",
+                    "subtitle2": "MuiTypography-subtitle2",
+                  }
+                }
+                color="textSecondary"
+                component="h2"
+                gutterBottom={true}
+                variant="subtitle2"
+              >
+                <h2
+                  className="MuiTypography-root makeStyles-typography-3 MuiTypography-subtitle2 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignLeft"
+                >
+                  Suggestions For You
+                </h2>
+              </ForwardRef(Typography)>
+            </WithStyles(ForwardRef(Typography))>
+            <div
+              className="makeStyles-card-2"
+              key="zwvfhwLDQx4"
+            >
+              <Memo(UserCard)
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "Love all, trust a few, do wrong to none.✨",
+                    "first_name": "Rochelle",
+                    "id": "zwvfhwLDQx4",
+                    "instagram_username": "bestlifanna",
+                    "last_name": "Lee",
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/bestlifanna/followers",
+                      "following": "https://api.unsplash.com/users/bestlifanna/following",
+                      "html": "https://unsplash.com/@bestlifanna",
+                      "likes": "https://api.unsplash.com/users/bestlifanna/likes",
+                      "photos": "https://api.unsplash.com/users/bestlifanna/photos",
+                      "portfolio": "https://api.unsplash.com/users/bestlifanna/portfolio",
+                      "self": "https://api.unsplash.com/users/bestlifanna",
+                    },
+                    "location": "United States",
+                    "name": "Rochelle Lee",
+                    "portfolio_url": "https://fanchatterbox.net/",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 0,
+                    "total_likes": 20,
+                    "total_photos": 43,
+                    "twitter_username": "BestLiFanNa",
+                    "updated_at": "2021-02-14T06:44:22-05:00",
+                    "username": "bestlifanna",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-wrapper-10"
+                >
+                  <a
+                    href="https://unsplash.com/@bestlifanna"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <WithStyles(ForwardRef(Avatar))
+                      alt="User avatar"
+                      className="makeStyles-avatar-8 makeStyles-avatar-12"
+                      src="https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    >
+                      <ForwardRef(Avatar)
+                        alt="User avatar"
+                        className="makeStyles-avatar-8 makeStyles-avatar-12"
+                        classes={
+                          Object {
+                            "circle": "MuiAvatar-circle",
+                            "circular": "MuiAvatar-circular",
+                            "colorDefault": "MuiAvatar-colorDefault",
+                            "fallback": "MuiAvatar-fallback",
+                            "img": "MuiAvatar-img",
+                            "root": "MuiAvatar-root",
+                            "rounded": "MuiAvatar-rounded",
+                            "square": "MuiAvatar-square",
+                          }
+                        }
+                        src="https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                      >
+                        <div
+                          className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-8 makeStyles-avatar-12"
+                        >
+                          <img
+                            alt="User avatar"
+                            className="MuiAvatar-img"
+                            src="https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                          />
+                        </div>
+                      </ForwardRef(Avatar)>
+                    </WithStyles(ForwardRef(Avatar))>
+                  </a>
+                  <div
+                    className="makeStyles-nameWrapper-11"
+                  >
+                    <a
+                      href="https://unsplash.com/@bestlifanna"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-typography-9"
+                        variant="subtitle2"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-typography-9"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          variant="subtitle2"
+                        >
+                          <h6
+                            className="MuiTypography-root makeStyles-typography-9 MuiTypography-subtitle2"
+                          >
+                            bestlifanna
+                          </h6>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </a>
+                    <WithStyles(ForwardRef(Typography))
+                      className="makeStyles-typography-9"
+                      color="textSecondary"
+                      variant="body2"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-typography-9"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="textSecondary"
+                        variant="body2"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-typography-9 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                        >
+                          Rochelle Lee
+                        </p>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </div>
+                </div>
+              </Memo(UserCard)>
+              <FollowButton
+                side={true}
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "Love all, trust a few, do wrong to none.✨",
+                    "first_name": "Rochelle",
+                    "id": "zwvfhwLDQx4",
+                    "instagram_username": "bestlifanna",
+                    "last_name": "Lee",
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/bestlifanna/followers",
+                      "following": "https://api.unsplash.com/users/bestlifanna/following",
+                      "html": "https://unsplash.com/@bestlifanna",
+                      "likes": "https://api.unsplash.com/users/bestlifanna/likes",
+                      "photos": "https://api.unsplash.com/users/bestlifanna/photos",
+                      "portfolio": "https://api.unsplash.com/users/bestlifanna/portfolio",
+                      "self": "https://api.unsplash.com/users/bestlifanna",
+                    },
+                    "location": "United States",
+                    "name": "Rochelle Lee",
+                    "portfolio_url": "https://fanchatterbox.net/",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1611218873772-b7d0a1183c38image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 0,
+                    "total_likes": 20,
+                    "total_photos": 43,
+                    "twitter_username": "BestLiFanNa",
+                    "updated_at": "2021-02-14T06:44:22-05:00",
+                    "username": "bestlifanna",
+                  }
+                }
+              >
+                <a
+                  href="https://unsplash.com/@bestlifanna"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <WithStyles(ForwardRef(Button))
+                    className="makeStyles-button-13 makeStyles-button-14"
+                    color="primary"
+                    fullWidth={true}
+                    variant="text"
+                  >
+                    <ForwardRef(Button)
+                      className="makeStyles-button-13 makeStyles-button-14"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "containedSizeLarge": "MuiButton-containedSizeLarge",
+                          "containedSizeSmall": "MuiButton-containedSizeSmall",
+                          "disableElevation": "MuiButton-disableElevation",
+                          "disabled": "Mui-disabled",
+                          "endIcon": "MuiButton-endIcon",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "iconSizeLarge": "MuiButton-iconSizeLarge",
+                          "iconSizeMedium": "MuiButton-iconSizeMedium",
+                          "iconSizeSmall": "MuiButton-iconSizeSmall",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                          "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "startIcon": "MuiButton-startIcon",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
+                          "textSizeLarge": "MuiButton-textSizeLarge",
+                          "textSizeSmall": "MuiButton-textSizeSmall",
+                        }
+                      }
+                      color="primary"
+                      fullWidth={true}
+                      variant="text"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-14 MuiButton-textPrimary MuiButton-fullWidth"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        type="button"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-14 MuiButton-textPrimary MuiButton-fullWidth"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-14 MuiButton-textPrimary MuiButton-fullWidth"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label"
+                            >
+                              Follow
+                            </span>
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
+                                center={false}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
+                                  }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
+                </a>
+              </FollowButton>
+            </div>
+            <div
+              className="makeStyles-card-2"
+              key="DVH6HYhjsbs"
+            >
+              <Memo(UserCard)
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": null,
+                    "first_name": "Joaquín",
+                    "id": "DVH6HYhjsbs",
+                    "instagram_username": null,
+                    "last_name": null,
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/jcb23/followers",
+                      "following": "https://api.unsplash.com/users/jcb23/following",
+                      "html": "https://unsplash.com/@jcb23",
+                      "likes": "https://api.unsplash.com/users/jcb23/likes",
+                      "photos": "https://api.unsplash.com/users/jcb23/photos",
+                      "portfolio": "https://api.unsplash.com/users/jcb23/portfolio",
+                      "self": "https://api.unsplash.com/users/jcb23",
+                    },
+                    "location": null,
+                    "name": "Joaquín",
+                    "portfolio_url": null,
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 0,
+                    "total_likes": 1382,
+                    "total_photos": 37,
+                    "twitter_username": null,
+                    "updated_at": "2021-02-14T06:54:21-05:00",
+                    "username": "jcb23",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-wrapper-10"
+                >
+                  <a
+                    href="https://unsplash.com/@jcb23"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <WithStyles(ForwardRef(Avatar))
+                      alt="User avatar"
+                      className="makeStyles-avatar-8 makeStyles-avatar-15"
+                      src="https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    >
+                      <ForwardRef(Avatar)
+                        alt="User avatar"
+                        className="makeStyles-avatar-8 makeStyles-avatar-15"
+                        classes={
+                          Object {
+                            "circle": "MuiAvatar-circle",
+                            "circular": "MuiAvatar-circular",
+                            "colorDefault": "MuiAvatar-colorDefault",
+                            "fallback": "MuiAvatar-fallback",
+                            "img": "MuiAvatar-img",
+                            "root": "MuiAvatar-root",
+                            "rounded": "MuiAvatar-rounded",
+                            "square": "MuiAvatar-square",
+                          }
+                        }
+                        src="https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                      >
+                        <div
+                          className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-8 makeStyles-avatar-15"
+                        >
+                          <img
+                            alt="User avatar"
+                            className="MuiAvatar-img"
+                            src="https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                          />
+                        </div>
+                      </ForwardRef(Avatar)>
+                    </WithStyles(ForwardRef(Avatar))>
+                  </a>
+                  <div
+                    className="makeStyles-nameWrapper-11"
+                  >
+                    <a
+                      href="https://unsplash.com/@jcb23"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-typography-9"
+                        variant="subtitle2"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-typography-9"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          variant="subtitle2"
+                        >
+                          <h6
+                            className="MuiTypography-root makeStyles-typography-9 MuiTypography-subtitle2"
+                          >
+                            jcb23
+                          </h6>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </a>
+                    <WithStyles(ForwardRef(Typography))
+                      className="makeStyles-typography-9"
+                      color="textSecondary"
+                      variant="body2"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-typography-9"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="textSecondary"
+                        variant="body2"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-typography-9 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                        >
+                          Joaquín
+                        </p>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </div>
+                </div>
+              </Memo(UserCard)>
+              <FollowButton
+                side={true}
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": null,
+                    "first_name": "Joaquín",
+                    "id": "DVH6HYhjsbs",
+                    "instagram_username": null,
+                    "last_name": null,
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/jcb23/followers",
+                      "following": "https://api.unsplash.com/users/jcb23/following",
+                      "html": "https://unsplash.com/@jcb23",
+                      "likes": "https://api.unsplash.com/users/jcb23/likes",
+                      "photos": "https://api.unsplash.com/users/jcb23/photos",
+                      "portfolio": "https://api.unsplash.com/users/jcb23/portfolio",
+                      "self": "https://api.unsplash.com/users/jcb23",
+                    },
+                    "location": null,
+                    "name": "Joaquín",
+                    "portfolio_url": null,
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1556922276884-d2e02ef63f7e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 0,
+                    "total_likes": 1382,
+                    "total_photos": 37,
+                    "twitter_username": null,
+                    "updated_at": "2021-02-14T06:54:21-05:00",
+                    "username": "jcb23",
+                  }
+                }
+              >
+                <a
+                  href="https://unsplash.com/@jcb23"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <WithStyles(ForwardRef(Button))
+                    className="makeStyles-button-13 makeStyles-button-16"
+                    color="primary"
+                    fullWidth={true}
+                    variant="text"
+                  >
+                    <ForwardRef(Button)
+                      className="makeStyles-button-13 makeStyles-button-16"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "containedSizeLarge": "MuiButton-containedSizeLarge",
+                          "containedSizeSmall": "MuiButton-containedSizeSmall",
+                          "disableElevation": "MuiButton-disableElevation",
+                          "disabled": "Mui-disabled",
+                          "endIcon": "MuiButton-endIcon",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "iconSizeLarge": "MuiButton-iconSizeLarge",
+                          "iconSizeMedium": "MuiButton-iconSizeMedium",
+                          "iconSizeSmall": "MuiButton-iconSizeSmall",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                          "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "startIcon": "MuiButton-startIcon",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
+                          "textSizeLarge": "MuiButton-textSizeLarge",
+                          "textSizeSmall": "MuiButton-textSizeSmall",
+                        }
+                      }
+                      color="primary"
+                      fullWidth={true}
+                      variant="text"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-16 MuiButton-textPrimary MuiButton-fullWidth"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        type="button"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-16 MuiButton-textPrimary MuiButton-fullWidth"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-16 MuiButton-textPrimary MuiButton-fullWidth"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label"
+                            >
+                              Follow
+                            </span>
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
+                                center={false}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
+                                  }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
+                </a>
+              </FollowButton>
+            </div>
+            <div
+              className="makeStyles-card-2"
+              key="N-JSeSTCz68"
+            >
+              <Memo(UserCard)
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "Follow us @Surface. #OriginalByDesign",
+                    "first_name": "Surface",
+                    "id": "N-JSeSTCz68",
+                    "instagram_username": "surface",
+                    "last_name": null,
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/surface/followers",
+                      "following": "https://api.unsplash.com/users/surface/following",
+                      "html": "https://unsplash.com/@surface",
+                      "likes": "https://api.unsplash.com/users/surface/likes",
+                      "photos": "https://api.unsplash.com/users/surface/photos",
+                      "portfolio": "https://api.unsplash.com/users/surface/portfolio",
+                      "self": "https://api.unsplash.com/users/surface",
+                    },
+                    "location": null,
+                    "name": "Surface",
+                    "portfolio_url": "http://surface.com",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 0,
+                    "total_likes": 0,
+                    "total_photos": 84,
+                    "twitter_username": "surface",
+                    "updated_at": "2021-02-14T06:09:24-05:00",
+                    "username": "surface",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-wrapper-10"
+                >
+                  <a
+                    href="https://unsplash.com/@surface"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <WithStyles(ForwardRef(Avatar))
+                      alt="User avatar"
+                      className="makeStyles-avatar-8 makeStyles-avatar-17"
+                      src="https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    >
+                      <ForwardRef(Avatar)
+                        alt="User avatar"
+                        className="makeStyles-avatar-8 makeStyles-avatar-17"
+                        classes={
+                          Object {
+                            "circle": "MuiAvatar-circle",
+                            "circular": "MuiAvatar-circular",
+                            "colorDefault": "MuiAvatar-colorDefault",
+                            "fallback": "MuiAvatar-fallback",
+                            "img": "MuiAvatar-img",
+                            "root": "MuiAvatar-root",
+                            "rounded": "MuiAvatar-rounded",
+                            "square": "MuiAvatar-square",
+                          }
+                        }
+                        src="https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                      >
+                        <div
+                          className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-8 makeStyles-avatar-17"
+                        >
+                          <img
+                            alt="User avatar"
+                            className="MuiAvatar-img"
+                            src="https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                          />
+                        </div>
+                      </ForwardRef(Avatar)>
+                    </WithStyles(ForwardRef(Avatar))>
+                  </a>
+                  <div
+                    className="makeStyles-nameWrapper-11"
+                  >
+                    <a
+                      href="https://unsplash.com/@surface"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-typography-9"
+                        variant="subtitle2"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-typography-9"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          variant="subtitle2"
+                        >
+                          <h6
+                            className="MuiTypography-root makeStyles-typography-9 MuiTypography-subtitle2"
+                          >
+                            surface
+                          </h6>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </a>
+                    <WithStyles(ForwardRef(Typography))
+                      className="makeStyles-typography-9"
+                      color="textSecondary"
+                      variant="body2"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-typography-9"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="textSecondary"
+                        variant="body2"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-typography-9 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                        >
+                          Surface
+                        </p>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </div>
+                </div>
+              </Memo(UserCard)>
+              <FollowButton
+                side={true}
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "Follow us @Surface. #OriginalByDesign",
+                    "first_name": "Surface",
+                    "id": "N-JSeSTCz68",
+                    "instagram_username": "surface",
+                    "last_name": null,
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/surface/followers",
+                      "following": "https://api.unsplash.com/users/surface/following",
+                      "html": "https://unsplash.com/@surface",
+                      "likes": "https://api.unsplash.com/users/surface/likes",
+                      "photos": "https://api.unsplash.com/users/surface/photos",
+                      "portfolio": "https://api.unsplash.com/users/surface/portfolio",
+                      "self": "https://api.unsplash.com/users/surface",
+                    },
+                    "location": null,
+                    "name": "Surface",
+                    "portfolio_url": "http://surface.com",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 0,
+                    "total_likes": 0,
+                    "total_photos": 84,
+                    "twitter_username": "surface",
+                    "updated_at": "2021-02-14T06:09:24-05:00",
+                    "username": "surface",
+                  }
+                }
+              >
+                <a
+                  href="https://unsplash.com/@surface"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <WithStyles(ForwardRef(Button))
+                    className="makeStyles-button-13 makeStyles-button-18"
+                    color="primary"
+                    fullWidth={true}
+                    variant="text"
+                  >
+                    <ForwardRef(Button)
+                      className="makeStyles-button-13 makeStyles-button-18"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "containedSizeLarge": "MuiButton-containedSizeLarge",
+                          "containedSizeSmall": "MuiButton-containedSizeSmall",
+                          "disableElevation": "MuiButton-disableElevation",
+                          "disabled": "Mui-disabled",
+                          "endIcon": "MuiButton-endIcon",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "iconSizeLarge": "MuiButton-iconSizeLarge",
+                          "iconSizeMedium": "MuiButton-iconSizeMedium",
+                          "iconSizeSmall": "MuiButton-iconSizeSmall",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                          "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "startIcon": "MuiButton-startIcon",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
+                          "textSizeLarge": "MuiButton-textSizeLarge",
+                          "textSizeSmall": "MuiButton-textSizeSmall",
+                        }
+                      }
+                      color="primary"
+                      fullWidth={true}
+                      variant="text"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-18 MuiButton-textPrimary MuiButton-fullWidth"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        type="button"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-18 MuiButton-textPrimary MuiButton-fullWidth"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-18 MuiButton-textPrimary MuiButton-fullWidth"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label"
+                            >
+                              Follow
+                            </span>
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
+                                center={false}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
+                                  }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
+                </a>
+              </FollowButton>
+            </div>
+            <div
+              className="makeStyles-card-2"
+              key="IHrsFOnXrsg"
+            >
+              <Memo(UserCard)
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "Age: 21 || Instagram: @martzzlstrauss || If you like my content consider donating to my PayPal :) https://www.paypal.me/Martzzl",
+                    "first_name": "Marcel",
+                    "id": "IHrsFOnXrsg",
+                    "instagram_username": "martzzlstrauss",
+                    "last_name": "Strauß",
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/martzzl/followers",
+                      "following": "https://api.unsplash.com/users/martzzl/following",
+                      "html": "https://unsplash.com/@martzzl",
+                      "likes": "https://api.unsplash.com/users/martzzl/likes",
+                      "photos": "https://api.unsplash.com/users/martzzl/photos",
+                      "portfolio": "https://api.unsplash.com/users/martzzl/portfolio",
+                      "self": "https://api.unsplash.com/users/martzzl",
+                    },
+                    "location": "Stuttgart",
+                    "name": "Marcel Strauß",
+                    "portfolio_url": "https://www.martzzl.com",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 28,
+                    "total_likes": 8376,
+                    "total_photos": 784,
+                    "twitter_username": "martzzl",
+                    "updated_at": "2021-02-14T06:59:20-05:00",
+                    "username": "martzzl",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-wrapper-10"
+                >
+                  <a
+                    href="https://unsplash.com/@martzzl"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <WithStyles(ForwardRef(Avatar))
+                      alt="User avatar"
+                      className="makeStyles-avatar-8 makeStyles-avatar-19"
+                      src="https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    >
+                      <ForwardRef(Avatar)
+                        alt="User avatar"
+                        className="makeStyles-avatar-8 makeStyles-avatar-19"
+                        classes={
+                          Object {
+                            "circle": "MuiAvatar-circle",
+                            "circular": "MuiAvatar-circular",
+                            "colorDefault": "MuiAvatar-colorDefault",
+                            "fallback": "MuiAvatar-fallback",
+                            "img": "MuiAvatar-img",
+                            "root": "MuiAvatar-root",
+                            "rounded": "MuiAvatar-rounded",
+                            "square": "MuiAvatar-square",
+                          }
+                        }
+                        src="https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                      >
+                        <div
+                          className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-8 makeStyles-avatar-19"
+                        >
+                          <img
+                            alt="User avatar"
+                            className="MuiAvatar-img"
+                            src="https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                          />
+                        </div>
+                      </ForwardRef(Avatar)>
+                    </WithStyles(ForwardRef(Avatar))>
+                  </a>
+                  <div
+                    className="makeStyles-nameWrapper-11"
+                  >
+                    <a
+                      href="https://unsplash.com/@martzzl"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-typography-9"
+                        variant="subtitle2"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-typography-9"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          variant="subtitle2"
+                        >
+                          <h6
+                            className="MuiTypography-root makeStyles-typography-9 MuiTypography-subtitle2"
+                          >
+                            martzzl
+                          </h6>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </a>
+                    <WithStyles(ForwardRef(Typography))
+                      className="makeStyles-typography-9"
+                      color="textSecondary"
+                      variant="body2"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-typography-9"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="textSecondary"
+                        variant="body2"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-typography-9 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                        >
+                          Marcel Strauß
+                        </p>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </div>
+                </div>
+              </Memo(UserCard)>
+              <FollowButton
+                side={true}
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "Age: 21 || Instagram: @martzzlstrauss || If you like my content consider donating to my PayPal :) https://www.paypal.me/Martzzl",
+                    "first_name": "Marcel",
+                    "id": "IHrsFOnXrsg",
+                    "instagram_username": "martzzlstrauss",
+                    "last_name": "Strauß",
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/martzzl/followers",
+                      "following": "https://api.unsplash.com/users/martzzl/following",
+                      "html": "https://unsplash.com/@martzzl",
+                      "likes": "https://api.unsplash.com/users/martzzl/likes",
+                      "photos": "https://api.unsplash.com/users/martzzl/photos",
+                      "portfolio": "https://api.unsplash.com/users/martzzl/portfolio",
+                      "self": "https://api.unsplash.com/users/martzzl",
+                    },
+                    "location": "Stuttgart",
+                    "name": "Marcel Strauß",
+                    "portfolio_url": "https://www.martzzl.com",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1610092021019-eae1a170e043image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 28,
+                    "total_likes": 8376,
+                    "total_photos": 784,
+                    "twitter_username": "martzzl",
+                    "updated_at": "2021-02-14T06:59:20-05:00",
+                    "username": "martzzl",
+                  }
+                }
+              >
+                <a
+                  href="https://unsplash.com/@martzzl"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <WithStyles(ForwardRef(Button))
+                    className="makeStyles-button-13 makeStyles-button-20"
+                    color="primary"
+                    fullWidth={true}
+                    variant="text"
+                  >
+                    <ForwardRef(Button)
+                      className="makeStyles-button-13 makeStyles-button-20"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "containedSizeLarge": "MuiButton-containedSizeLarge",
+                          "containedSizeSmall": "MuiButton-containedSizeSmall",
+                          "disableElevation": "MuiButton-disableElevation",
+                          "disabled": "Mui-disabled",
+                          "endIcon": "MuiButton-endIcon",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "iconSizeLarge": "MuiButton-iconSizeLarge",
+                          "iconSizeMedium": "MuiButton-iconSizeMedium",
+                          "iconSizeSmall": "MuiButton-iconSizeSmall",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                          "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "startIcon": "MuiButton-startIcon",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
+                          "textSizeLarge": "MuiButton-textSizeLarge",
+                          "textSizeSmall": "MuiButton-textSizeSmall",
+                        }
+                      }
+                      color="primary"
+                      fullWidth={true}
+                      variant="text"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-20 MuiButton-textPrimary MuiButton-fullWidth"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        type="button"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-20 MuiButton-textPrimary MuiButton-fullWidth"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-20 MuiButton-textPrimary MuiButton-fullWidth"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label"
+                            >
+                              Follow
+                            </span>
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
+                                center={false}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
+                                  }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
+                </a>
+              </FollowButton>
+            </div>
+            <div
+              className="makeStyles-card-2"
+              key="VxYqltf367I"
+            >
+              <Memo(UserCard)
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "photographer / technician",
+                    "first_name": "Sajad",
+                    "id": "VxYqltf367I",
+                    "instagram_username": "S.sajadnori",
+                    "last_name": "Nori",
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/sajad_sqs9966b/followers",
+                      "following": "https://api.unsplash.com/users/sajad_sqs9966b/following",
+                      "html": "https://unsplash.com/@sajad_sqs9966b",
+                      "likes": "https://api.unsplash.com/users/sajad_sqs9966b/likes",
+                      "photos": "https://api.unsplash.com/users/sajad_sqs9966b/photos",
+                      "portfolio": "https://api.unsplash.com/users/sajad_sqs9966b/portfolio",
+                      "self": "https://api.unsplash.com/users/sajad_sqs9966b",
+                    },
+                    "location": "Tehran/iran",
+                    "name": "Sajad Nori",
+                    "portfolio_url": null,
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 12,
+                    "total_likes": 8333,
+                    "total_photos": 442,
+                    "twitter_username": null,
+                    "updated_at": "2021-02-14T06:54:23-05:00",
+                    "username": "sajad_sqs9966b",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-wrapper-10"
+                >
+                  <a
+                    href="https://unsplash.com/@sajad_sqs9966b"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <WithStyles(ForwardRef(Avatar))
+                      alt="User avatar"
+                      className="makeStyles-avatar-8 makeStyles-avatar-21"
+                      src="https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    >
+                      <ForwardRef(Avatar)
+                        alt="User avatar"
+                        className="makeStyles-avatar-8 makeStyles-avatar-21"
+                        classes={
+                          Object {
+                            "circle": "MuiAvatar-circle",
+                            "circular": "MuiAvatar-circular",
+                            "colorDefault": "MuiAvatar-colorDefault",
+                            "fallback": "MuiAvatar-fallback",
+                            "img": "MuiAvatar-img",
+                            "root": "MuiAvatar-root",
+                            "rounded": "MuiAvatar-rounded",
+                            "square": "MuiAvatar-square",
+                          }
+                        }
+                        src="https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                      >
+                        <div
+                          className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-8 makeStyles-avatar-21"
+                        >
+                          <img
+                            alt="User avatar"
+                            className="MuiAvatar-img"
+                            src="https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                          />
+                        </div>
+                      </ForwardRef(Avatar)>
+                    </WithStyles(ForwardRef(Avatar))>
+                  </a>
+                  <div
+                    className="makeStyles-nameWrapper-11"
+                  >
+                    <a
+                      href="https://unsplash.com/@sajad_sqs9966b"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-typography-9"
+                        variant="subtitle2"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-typography-9"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          variant="subtitle2"
+                        >
+                          <h6
+                            className="MuiTypography-root makeStyles-typography-9 MuiTypography-subtitle2"
+                          >
+                            sajad_sqs9966b
+                          </h6>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </a>
+                    <WithStyles(ForwardRef(Typography))
+                      className="makeStyles-typography-9"
+                      color="textSecondary"
+                      variant="body2"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-typography-9"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="textSecondary"
+                        variant="body2"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-typography-9 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                        >
+                          Sajad Nori
+                        </p>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </div>
+                </div>
+              </Memo(UserCard)>
+              <FollowButton
+                side={true}
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "photographer / technician",
+                    "first_name": "Sajad",
+                    "id": "VxYqltf367I",
+                    "instagram_username": "S.sajadnori",
+                    "last_name": "Nori",
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/sajad_sqs9966b/followers",
+                      "following": "https://api.unsplash.com/users/sajad_sqs9966b/following",
+                      "html": "https://unsplash.com/@sajad_sqs9966b",
+                      "likes": "https://api.unsplash.com/users/sajad_sqs9966b/likes",
+                      "photos": "https://api.unsplash.com/users/sajad_sqs9966b/photos",
+                      "portfolio": "https://api.unsplash.com/users/sajad_sqs9966b/portfolio",
+                      "self": "https://api.unsplash.com/users/sajad_sqs9966b",
+                    },
+                    "location": "Tehran/iran",
+                    "name": "Sajad Nori",
+                    "portfolio_url": null,
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1612182646421-53b5426a6a75image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 12,
+                    "total_likes": 8333,
+                    "total_photos": 442,
+                    "twitter_username": null,
+                    "updated_at": "2021-02-14T06:54:23-05:00",
+                    "username": "sajad_sqs9966b",
+                  }
+                }
+              >
+                <a
+                  href="https://unsplash.com/@sajad_sqs9966b"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <WithStyles(ForwardRef(Button))
+                    className="makeStyles-button-13 makeStyles-button-22"
+                    color="primary"
+                    fullWidth={true}
+                    variant="text"
+                  >
+                    <ForwardRef(Button)
+                      className="makeStyles-button-13 makeStyles-button-22"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "containedSizeLarge": "MuiButton-containedSizeLarge",
+                          "containedSizeSmall": "MuiButton-containedSizeSmall",
+                          "disableElevation": "MuiButton-disableElevation",
+                          "disabled": "Mui-disabled",
+                          "endIcon": "MuiButton-endIcon",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "iconSizeLarge": "MuiButton-iconSizeLarge",
+                          "iconSizeMedium": "MuiButton-iconSizeMedium",
+                          "iconSizeSmall": "MuiButton-iconSizeSmall",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                          "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "startIcon": "MuiButton-startIcon",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
+                          "textSizeLarge": "MuiButton-textSizeLarge",
+                          "textSizeSmall": "MuiButton-textSizeSmall",
+                        }
+                      }
+                      color="primary"
+                      fullWidth={true}
+                      variant="text"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-22 MuiButton-textPrimary MuiButton-fullWidth"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        type="button"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-22 MuiButton-textPrimary MuiButton-fullWidth"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-22 MuiButton-textPrimary MuiButton-fullWidth"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label"
+                            >
+                              Follow
+                            </span>
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
+                                center={false}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
+                                  }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
+                </a>
+              </FollowButton>
+            </div>
+            <div
+              className="makeStyles-card-2"
+              key="WHDTLoaHn3Q"
+            >
+              <Memo(UserCard)
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "An Instagram Coach who also loves taking photos | @sincerelymedia",
+                    "first_name": "Sincerely Media",
+                    "id": "WHDTLoaHn3Q",
+                    "instagram_username": "sincerelymedia",
+                    "last_name": null,
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/sincerelymedia/followers",
+                      "following": "https://api.unsplash.com/users/sincerelymedia/following",
+                      "html": "https://unsplash.com/@sincerelymedia",
+                      "likes": "https://api.unsplash.com/users/sincerelymedia/likes",
+                      "photos": "https://api.unsplash.com/users/sincerelymedia/photos",
+                      "portfolio": "https://api.unsplash.com/users/sincerelymedia/portfolio",
+                      "self": "https://api.unsplash.com/users/sincerelymedia",
+                    },
+                    "location": "Port Elizabeth, South Africa",
+                    "name": "Sincerely Media",
+                    "portfolio_url": "https://www.sincerelymedia.com/",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 58,
+                    "total_likes": 687,
+                    "total_photos": 3060,
+                    "twitter_username": null,
+                    "updated_at": "2021-02-14T06:34:22-05:00",
+                    "username": "sincerelymedia",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-wrapper-10"
+                >
+                  <a
+                    href="https://unsplash.com/@sincerelymedia"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <WithStyles(ForwardRef(Avatar))
+                      alt="User avatar"
+                      className="makeStyles-avatar-8 makeStyles-avatar-23"
+                      src="https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                    >
+                      <ForwardRef(Avatar)
+                        alt="User avatar"
+                        className="makeStyles-avatar-8 makeStyles-avatar-23"
+                        classes={
+                          Object {
+                            "circle": "MuiAvatar-circle",
+                            "circular": "MuiAvatar-circular",
+                            "colorDefault": "MuiAvatar-colorDefault",
+                            "fallback": "MuiAvatar-fallback",
+                            "img": "MuiAvatar-img",
+                            "root": "MuiAvatar-root",
+                            "rounded": "MuiAvatar-rounded",
+                            "square": "MuiAvatar-square",
+                          }
+                        }
+                        src="https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                      >
+                        <div
+                          className="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-8 makeStyles-avatar-23"
+                        >
+                          <img
+                            alt="User avatar"
+                            className="MuiAvatar-img"
+                            src="https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64"
+                          />
+                        </div>
+                      </ForwardRef(Avatar)>
+                    </WithStyles(ForwardRef(Avatar))>
+                  </a>
+                  <div
+                    className="makeStyles-nameWrapper-11"
+                  >
+                    <a
+                      href="https://unsplash.com/@sincerelymedia"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <WithStyles(ForwardRef(Typography))
+                        className="makeStyles-typography-9"
+                        variant="subtitle2"
+                      >
+                        <ForwardRef(Typography)
+                          className="makeStyles-typography-9"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                          variant="subtitle2"
+                        >
+                          <h6
+                            className="MuiTypography-root makeStyles-typography-9 MuiTypography-subtitle2"
+                          >
+                            sincerelymedia
+                          </h6>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </a>
+                    <WithStyles(ForwardRef(Typography))
+                      className="makeStyles-typography-9"
+                      color="textSecondary"
+                      variant="body2"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-typography-9"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="textSecondary"
+                        variant="body2"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-typography-9 MuiTypography-body2 MuiTypography-colorTextSecondary"
+                        >
+                          Sincerely Media
+                        </p>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                  </div>
+                </div>
+              </Memo(UserCard)>
+              <FollowButton
+                side={true}
+                user={
+                  Object {
+                    "accepted_tos": true,
+                    "bio": "An Instagram Coach who also loves taking photos | @sincerelymedia",
+                    "first_name": "Sincerely Media",
+                    "id": "WHDTLoaHn3Q",
+                    "instagram_username": "sincerelymedia",
+                    "last_name": null,
+                    "links": Object {
+                      "followers": "https://api.unsplash.com/users/sincerelymedia/followers",
+                      "following": "https://api.unsplash.com/users/sincerelymedia/following",
+                      "html": "https://unsplash.com/@sincerelymedia",
+                      "likes": "https://api.unsplash.com/users/sincerelymedia/likes",
+                      "photos": "https://api.unsplash.com/users/sincerelymedia/photos",
+                      "portfolio": "https://api.unsplash.com/users/sincerelymedia/portfolio",
+                      "self": "https://api.unsplash.com/users/sincerelymedia",
+                    },
+                    "location": "Port Elizabeth, South Africa",
+                    "name": "Sincerely Media",
+                    "portfolio_url": "https://www.sincerelymedia.com/",
+                    "profile_image": Object {
+                      "large": "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+                      "medium": "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                      "small": "https://images.unsplash.com/profile-1574069925275-e7291803b9f6image?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    },
+                    "total_collections": 58,
+                    "total_likes": 687,
+                    "total_photos": 3060,
+                    "twitter_username": null,
+                    "updated_at": "2021-02-14T06:34:22-05:00",
+                    "username": "sincerelymedia",
+                  }
+                }
+              >
+                <a
+                  href="https://unsplash.com/@sincerelymedia"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <WithStyles(ForwardRef(Button))
+                    className="makeStyles-button-13 makeStyles-button-24"
+                    color="primary"
+                    fullWidth={true}
+                    variant="text"
+                  >
+                    <ForwardRef(Button)
+                      className="makeStyles-button-13 makeStyles-button-24"
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "containedSizeLarge": "MuiButton-containedSizeLarge",
+                          "containedSizeSmall": "MuiButton-containedSizeSmall",
+                          "disableElevation": "MuiButton-disableElevation",
+                          "disabled": "Mui-disabled",
+                          "endIcon": "MuiButton-endIcon",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "iconSizeLarge": "MuiButton-iconSizeLarge",
+                          "iconSizeMedium": "MuiButton-iconSizeMedium",
+                          "iconSizeSmall": "MuiButton-iconSizeSmall",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                          "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "startIcon": "MuiButton-startIcon",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
+                          "textSizeLarge": "MuiButton-textSizeLarge",
+                          "textSizeSmall": "MuiButton-textSizeSmall",
+                        }
+                      }
+                      color="primary"
+                      fullWidth={true}
+                      variant="text"
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-24 MuiButton-textPrimary MuiButton-fullWidth"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        type="button"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-24 MuiButton-textPrimary MuiButton-fullWidth"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-13 makeStyles-button-24 MuiButton-textPrimary MuiButton-fullWidth"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label"
+                            >
+                              Follow
+                            </span>
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
+                                center={false}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
+                                  }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
+                </a>
+              </FollowButton>
+            </div>
+          </div>
+        </ForwardRef(Paper)>
+      </WithStyles(ForwardRef(Paper))>
+    </article>
+  </Memo(FeedSideSuggestions)>
+</Provider>
+`;
+
+exports[`FeedSideSuggestions FeedSideSuggestions with initial state FeedSideSuggestions should correctly renders markup 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Memo(FeedSideSuggestions)>
+    <article
+      className="makeStyles-article-1"
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-4"
+      >
+        <ForwardRef(Paper)
+          className="makeStyles-paper-4"
+          classes={
+            Object {
+              "elevation0": "MuiPaper-elevation0",
+              "elevation1": "MuiPaper-elevation1",
+              "elevation10": "MuiPaper-elevation10",
+              "elevation11": "MuiPaper-elevation11",
+              "elevation12": "MuiPaper-elevation12",
+              "elevation13": "MuiPaper-elevation13",
+              "elevation14": "MuiPaper-elevation14",
+              "elevation15": "MuiPaper-elevation15",
+              "elevation16": "MuiPaper-elevation16",
+              "elevation17": "MuiPaper-elevation17",
+              "elevation18": "MuiPaper-elevation18",
+              "elevation19": "MuiPaper-elevation19",
+              "elevation2": "MuiPaper-elevation2",
+              "elevation20": "MuiPaper-elevation20",
+              "elevation21": "MuiPaper-elevation21",
+              "elevation22": "MuiPaper-elevation22",
+              "elevation23": "MuiPaper-elevation23",
+              "elevation24": "MuiPaper-elevation24",
+              "elevation3": "MuiPaper-elevation3",
+              "elevation4": "MuiPaper-elevation4",
+              "elevation5": "MuiPaper-elevation5",
+              "elevation6": "MuiPaper-elevation6",
+              "elevation7": "MuiPaper-elevation7",
+              "elevation8": "MuiPaper-elevation8",
+              "elevation9": "MuiPaper-elevation9",
+              "outlined": "MuiPaper-outlined",
+              "root": "MuiPaper-root",
+              "rounded": "MuiPaper-rounded",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root makeStyles-paper-4 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <WithStyles(ForwardRef(Typography))
+              align="left"
+              className="makeStyles-typography-3"
+              color="textSecondary"
+              component="h2"
+              gutterBottom={true}
+              variant="subtitle2"
+            >
+              <ForwardRef(Typography)
+                align="left"
+                className="makeStyles-typography-3"
+                classes={
+                  Object {
+                    "alignCenter": "MuiTypography-alignCenter",
+                    "alignJustify": "MuiTypography-alignJustify",
+                    "alignLeft": "MuiTypography-alignLeft",
+                    "alignRight": "MuiTypography-alignRight",
+                    "body1": "MuiTypography-body1",
+                    "body2": "MuiTypography-body2",
+                    "button": "MuiTypography-button",
+                    "caption": "MuiTypography-caption",
+                    "colorError": "MuiTypography-colorError",
+                    "colorInherit": "MuiTypography-colorInherit",
+                    "colorPrimary": "MuiTypography-colorPrimary",
+                    "colorSecondary": "MuiTypography-colorSecondary",
+                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                    "displayBlock": "MuiTypography-displayBlock",
+                    "displayInline": "MuiTypography-displayInline",
+                    "gutterBottom": "MuiTypography-gutterBottom",
+                    "h1": "MuiTypography-h1",
+                    "h2": "MuiTypography-h2",
+                    "h3": "MuiTypography-h3",
+                    "h4": "MuiTypography-h4",
+                    "h5": "MuiTypography-h5",
+                    "h6": "MuiTypography-h6",
+                    "noWrap": "MuiTypography-noWrap",
+                    "overline": "MuiTypography-overline",
+                    "paragraph": "MuiTypography-paragraph",
+                    "root": "MuiTypography-root",
+                    "srOnly": "MuiTypography-srOnly",
+                    "subtitle1": "MuiTypography-subtitle1",
+                    "subtitle2": "MuiTypography-subtitle2",
+                  }
+                }
+                color="textSecondary"
+                component="h2"
+                gutterBottom={true}
+                variant="subtitle2"
+              >
+                <h2
+                  className="MuiTypography-root makeStyles-typography-3 MuiTypography-subtitle2 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignLeft"
+                >
+                  Suggestions For You
+                </h2>
+              </ForwardRef(Typography)>
+            </WithStyles(ForwardRef(Typography))>
+          </div>
+        </ForwardRef(Paper)>
+      </WithStyles(ForwardRef(Paper))>
+    </article>
+  </Memo(FeedSideSuggestions)>
+</Provider>
+`;

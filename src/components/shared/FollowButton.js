@@ -28,8 +28,7 @@ function FollowButton({
 }
 
 FollowButton.propTypes = {
-  user: PropTypes.string.isRequired,
-  side: PropTypes.string.isRequired,
+  user: PropTypes.object.isRequired,
 };
 
 export default FollowButton;
