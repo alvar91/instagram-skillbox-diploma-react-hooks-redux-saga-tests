@@ -11,7 +11,7 @@ import Adapter from "enzyme-adapter-react-16";
 import ErrorBoundary from "./";
 
 // App
-import MockErrorComponent from "../../mock/mockErrorComponent";
+import MockErrorComponent from "../../mock/MockErrorComponent";
 
 configure({ adapter: new Adapter() });
 
