@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedPost FeedPost should correctly renders markup 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        Object {
+          "key": "testKey",
+          "pathname": "/1gLdTsX3_70",
+        },
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/1gLdTsX3_70",
+              "search": "",
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/1gLdTsX3_70",
+            "search": "",
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Route
+        path="/:postId"
+      >
+        <PostModal>
+          <Modal
+            ariaHideApp={false}
+            bodyOpenClassName="ReactModal__Body--open"
+            closeTimeoutMS={0}
+            contentElement={[Function]}
+            isOpen={true}
+            onRequestClose={[Function]}
+            overlayClassName="makeStyles-overlay-1"
+            overlayElement={[Function]}
+            parentSelector={[Function]}
+            portalClassName="ReactModalPortal"
+            preventScroll={false}
+            role="dialog"
+            shouldCloseOnEsc={true}
+            shouldCloseOnOverlayClick={true}
+            shouldFocusAfterRender={true}
+            shouldReturnFocusAfterClose={true}
+            style={
+              Object {
+                "content": Object {
+                  "WebkitOverflowScrolling": "touch",
+                  "alignItems": "center",
+                  "bottom": "auto",
+                  "display": "flex",
+                  "left": "50%",
+                  "margin": 0,
+                  "maxWidth": 935,
+                  "overflow": "none",
+                  "padding": 0,
+                  "right": "auto",
+                  "top": "50%",
+                  "transform": "translate(-50%, -50%)",
+                  "width": "100%",
+                },
+              }
+            }
+          >
+            <Portal
+              containerInfo={
+                <div
+                  class="ReactModalPortal"
+                >
+                  <div
+                    class="ReactModal__Overlay ReactModal__Overlay--after-open makeStyles-overlay-1"
+                  >
+                    <div
+                      aria-modal="true"
+                      class="ReactModal__Content ReactModal__Content--after-open"
+                      role="dialog"
+                      style="position: absolute; top: 50%; left: 50%; border: 1px solid #ccc; background: rgb(255, 255, 255); overflow: none; border-radius: 4px; outline: none; padding: 0px; display: flex; align-items: center; max-width: 935px; width: 100%; transform: translate(-50%, -50%); margin: 0px;"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="makeStyles-container-29"
+                      >
+                        <div
+                          class="makeStyles-mediaSkeleton-35"
+                        />
+                        <div>
+                          <div
+                            class="makeStyles-headerSkeleton-30"
+                          >
+                            <div
+                              class="makeStyles-avatarSkeleton-31"
+                            />
+                            <div
+                              class="makeStyles-headerTextSkeleton-32"
+                            >
+                              <div
+                                class="makeStyles-primaryTextSkeleton-33"
+                              />
+                              <div
+                                class="makeStyles-secondaryTextSkeleton-34"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              }
+            >
+              <ModalPortal
+                ariaHideApp={false}
+                bodyOpenClassName="ReactModal__Body--open"
+                closeTimeoutMS={0}
+                contentElement={[Function]}
+                defaultStyles={
+                  Object {
+                    "content": Object {
+                      "WebkitOverflowScrolling": "touch",
+                      "background": "#fff",
+                      "border": "1px solid #ccc",
+                      "borderRadius": "4px",
+                      "bottom": "40px",
+                      "left": "40px",
+                      "outline": "none",
+                      "overflow": "auto",
+                      "padding": "20px",
+                      "position": "absolute",
+                      "right": "40px",
+                      "top": "40px",
+                    },
+                    "overlay": Object {
+                      "backgroundColor": "rgba(255, 255, 255, 0.75)",
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "fixed",
+                      "right": 0,
+                      "top": 0,
+                    },
+                  }
+                }
+                isOpen={true}
+                onRequestClose={[Function]}
+                overlayClassName="makeStyles-overlay-1"
+                overlayElement={[Function]}
+                parentSelector={[Function]}
+                portalClassName="ReactModalPortal"
+                preventScroll={false}
+                role="dialog"
+                shouldCloseOnEsc={true}
+                shouldCloseOnOverlayClick={true}
+                shouldFocusAfterRender={true}
+                shouldReturnFocusAfterClose={true}
+                style={
+                  Object {
+                    "content": Object {
+                      "WebkitOverflowScrolling": "touch",
+                      "alignItems": "center",
+                      "bottom": "auto",
+                      "display": "flex",
+                      "left": "50%",
+                      "margin": 0,
+                      "maxWidth": 935,
+                      "overflow": "none",
+                      "padding": 0,
+                      "right": "auto",
+                      "top": "50%",
+                      "transform": "translate(-50%, -50%)",
+                      "width": "100%",
+                    },
+                  }
+                }
+              >
+                <div
+                  className="ReactModal__Overlay ReactModal__Overlay--after-open makeStyles-overlay-1"
+                  onClick={[Function]}
+                  onMouseDown={[Function]}
+                  style={Object {}}
+                >
+                  <div
+                    aria-modal={true}
+                    className="ReactModal__Content ReactModal__Content--after-open"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    role="dialog"
+                    style={
+                      Object {
+                        "WebkitOverflowScrolling": "touch",
+                        "alignItems": "center",
+                        "background": "#fff",
+                        "border": "1px solid #ccc",
+                        "borderRadius": "4px",
+                        "bottom": "auto",
+                        "display": "flex",
+                        "left": "50%",
+                        "margin": 0,
+                        "maxWidth": 935,
+                        "outline": "none",
+                        "overflow": "none",
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": "auto",
+                        "top": "50%",
+                        "transform": "translate(-50%, -50%)",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex="-1"
+                  >
+                    <Memo(Post)
+                      id="1gLdTsX3_70"
+                    >
+                      <PostSkeleton>
+                        <div
+                          className="makeStyles-container-29"
+                          style={
+                            Object {
+                              "gridTemplateColumns": false,
+                            }
+                          }
+                        >
+                          <div
+                            className="makeStyles-mediaSkeleton-35"
+                          />
+                          <div>
+                            <div
+                              className="makeStyles-headerSkeleton-30"
+                            >
+                              <div
+                                className="makeStyles-avatarSkeleton-31"
+                              />
+                              <div
+                                className="makeStyles-headerTextSkeleton-32"
+                              >
+                                <div
+                                  className="makeStyles-primaryTextSkeleton-33"
+                                />
+                                <div
+                                  className="makeStyles-secondaryTextSkeleton-34"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </PostSkeleton>
+                    </Memo(Post)>
+                  </div>
+                </div>
+              </ModalPortal>
+            </Portal>
+          </Modal>
+          <div
+            className="makeStyles-close-2"
+            onClick={[Function]}
+          >
+            <CloseIcon>
+              <svg
+                aria-label="Close"
+                className="_8-yf5"
+                fill="#fff"
+                height={24}
+                viewBox="0 0 48 48"
+                width={24}
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M41.8 9.8L27.5 24l14.2 14.2c.6.6.6 1.5 0 2.1l-1.4 1.4c-.6.6-1.5.6-2.1 0L24 27.5 9.8 41.8c-.6.6-1.5.6-2.1 0l-1.4-1.4c-.6-.6-.6-1.5 0-2.1L20.5 24 6.2 9.8c-.6-.6-.6-1.5 0-2.1l1.4-1.4c.6-.6 1.5-.6 2.1 0L24 20.5 38.3 6.2c.6-.6 1.5-.6 2.1 0l1.4 1.4c.6.6.6 1.6 0 2.2z"
+                  fillRule="evenodd"
+                />
+              </svg>
+            </CloseIcon>
+          </div>
+        </PostModal>
+      </Route>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
