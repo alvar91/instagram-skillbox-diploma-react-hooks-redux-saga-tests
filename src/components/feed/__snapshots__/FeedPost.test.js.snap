@@ -382,10 +382,12 @@ exports[`FeedPost FeedPost should correctly renders markup 1`] = `
               liked={false}
             >
               <LikeIcon
+                data-testid="Icon"
                 onClick={[Function]}
               >
                 <svg
                   aria-label="Like"
+                  data-testid="Icon"
                   fill="#262626"
                   height={24}
                   onClick={[Function]}
