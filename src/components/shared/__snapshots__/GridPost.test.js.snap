@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridPost GridPost with mock post state GridPost should correctly renders markup 1`] = `
+<GridPost
+  post={
+    Object {
+      "alt_description": "laptop on brown sofa",
+      "blur_hash": "LHEf7wbbM{w[_NM{-:xZRiVs%gNG",
+      "categories": Array [],
+      "color": "#260c0c",
+      "created_at": "2020-07-01T18:30:14-04:00",
+      "current_user_collections": Array [],
+      "description": null,
+      "height": 4016,
+      "id": "1gLdTsX3_70",
+      "liked_by_user": false,
+      "likes": 738,
+      "links": Object {
+        "download": "https://unsplash.com/photos/1gLdTsX3_70/download",
+        "download_location": "https://api.unsplash.com/photos/1gLdTsX3_70/download",
+        "html": "https://unsplash.com/photos/1gLdTsX3_70",
+        "self": "https://api.unsplash.com/photos/1gLdTsX3_70",
+      },
+      "promoted_at": null,
+      "sponsorship": Object {
+        "impression_urls": Array [
+          "https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=8281535&rnd=[timestamp]&gdpr=&gdpr_consent=&redir=https://secure.insightexpressai.com/adserver/1pixel.gif",
+        ],
+        "sponsor": Object {
+          "accepted_tos": true,
+          "bio": "Designed to be the best, with cutting edge technologies, exceptional build quality, unique materials and powerful features.",
+          "first_name": "XPS",
+          "id": "2DC3GyeqWjI",
+          "instagram_username": "dell",
+          "last_name": null,
+          "links": Object {
+            "followers": "https://api.unsplash.com/users/xps/followers",
+            "following": "https://api.unsplash.com/users/xps/following",
+            "html": "https://unsplash.com/@xps",
+            "likes": "https://api.unsplash.com/users/xps/likes",
+            "photos": "https://api.unsplash.com/users/xps/photos",
+            "portfolio": "https://api.unsplash.com/users/xps/portfolio",
+            "self": "https://api.unsplash.com/users/xps",
+          },
+          "location": null,
+          "name": "XPS",
+          "portfolio_url": "http://www.dell.com/xps",
+          "profile_image": Object {
+            "large": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+            "medium": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+            "small": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+          },
+          "total_collections": 0,
+          "total_likes": 0,
+          "total_photos": 22,
+          "twitter_username": "Dell",
+          "updated_at": "2021-02-12T14:33:51-05:00",
+          "username": "xps",
+        },
+        "tagline": "Designed to be the Best",
+        "tagline_url": "http://www.dell.com/xps",
+      },
+      "updated_at": "2021-02-11T23:12:42-05:00",
+      "urls": Object {
+        "full": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=85",
+        "raw": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1",
+        "regular": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=200",
+      },
+      "user": Object {
+        "accepted_tos": true,
+        "bio": "Designed to be the best, with cutting edge technologies, exceptional build quality, unique materials and powerful features.",
+        "first_name": "XPS",
+        "id": "2DC3GyeqWjI",
+        "instagram_username": "dell",
+        "last_name": null,
+        "links": Object {
+          "followers": "https://api.unsplash.com/users/xps/followers",
+          "following": "https://api.unsplash.com/users/xps/following",
+          "html": "https://unsplash.com/@xps",
+          "likes": "https://api.unsplash.com/users/xps/likes",
+          "photos": "https://api.unsplash.com/users/xps/photos",
+          "portfolio": "https://api.unsplash.com/users/xps/portfolio",
+          "self": "https://api.unsplash.com/users/xps",
+        },
+        "location": null,
+        "name": "XPS",
+        "portfolio_url": "http://www.dell.com/xps",
+        "profile_image": Object {
+          "large": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128",
+          "medium": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+          "small": "https://images.unsplash.com/profile-1600096866391-b09a1a53451aimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+        },
+        "total_collections": 0,
+        "total_likes": 0,
+        "total_photos": 22,
+        "twitter_username": "Dell",
+        "updated_at": "2021-02-12T14:33:51-05:00",
+        "username": "xps",
+      },
+      "width": 6016,
+    }
+  }
+>
+  <div
+    className="makeStyles-gridPostContainer-2"
+    onClick={[Function]}
+  >
+    <div
+      className="makeStyles-gridPostOverlay-3"
+    >
+      <div
+        className="makeStyles-gridPostInfo-4"
+      >
+        <WithStyles(ForwardRef(Typography))>
+          <ForwardRef(Typography)
+            classes={
+              Object {
+                "alignCenter": "MuiTypography-alignCenter",
+                "alignJustify": "MuiTypography-alignJustify",
+                "alignLeft": "MuiTypography-alignLeft",
+                "alignRight": "MuiTypography-alignRight",
+                "body1": "MuiTypography-body1",
+                "body2": "MuiTypography-body2",
+                "button": "MuiTypography-button",
+                "caption": "MuiTypography-caption",
+                "colorError": "MuiTypography-colorError",
+                "colorInherit": "MuiTypography-colorInherit",
+                "colorPrimary": "MuiTypography-colorPrimary",
+                "colorSecondary": "MuiTypography-colorSecondary",
+                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                "displayBlock": "MuiTypography-displayBlock",
+                "displayInline": "MuiTypography-displayInline",
+                "gutterBottom": "MuiTypography-gutterBottom",
+                "h1": "MuiTypography-h1",
+                "h2": "MuiTypography-h2",
+                "h3": "MuiTypography-h3",
+                "h4": "MuiTypography-h4",
+                "h5": "MuiTypography-h5",
+                "h6": "MuiTypography-h6",
+                "noWrap": "MuiTypography-noWrap",
+                "overline": "MuiTypography-overline",
+                "paragraph": "MuiTypography-paragraph",
+                "root": "MuiTypography-root",
+                "srOnly": "MuiTypography-srOnly",
+                "subtitle1": "MuiTypography-subtitle1",
+                "subtitle2": "MuiTypography-subtitle2",
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1"
+            >
+              Fri, Feb 12, 2021
+            </p>
+          </ForwardRef(Typography)>
+        </WithStyles(ForwardRef(Typography))>
+      </div>
+    </div>
+    <img
+      alt="Post cover"
+      className="makeStyles-image-1"
+      src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxOTY5OTJ8MXwxfGFsbHwxfHx8fHx8Mnw&ixlib=rb-1.2.1&q=80&w=400"
+    />
+  </div>
+</GridPost>
+`;
