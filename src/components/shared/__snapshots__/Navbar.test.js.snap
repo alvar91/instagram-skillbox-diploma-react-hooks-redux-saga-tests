@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Navbar with isLoggedIn=false Navbar should correctly renders markup 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <MemoryRouter
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "8eoqpc",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "8eoqpc",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    initialEntries={
+      Array [
+        Object {
+          "key": "testKey",
+          "pathname": "/",
+        },
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "PUSH",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/",
+              "search": "",
+            },
+            Object {
+              "hash": "",
+              "key": "hyt5ym",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 1,
+          "length": 2,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "hyt5ym",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Memo(Navbar)
+        minimalNavbar={true}
+      >
+        <Progress
+          isAnimating={false}
+        >
+          <div
+            className="makeStyles-progressContainer-25"
+            style={
+              Object {
+                "opacity": 1,
+                "transition": "opacity 200ms linear",
+              }
+            }
+          >
+            <div
+              className="makeStyles-progressBar-24"
+              style={
+                Object {
+                  "marginLeft": "0%",
+                  "transition": "margin-left 200ms linear",
+                }
+              }
+            >
+              <div
+                className="makeStyles-progressBackground-26"
+              />
+            </div>
+          </div>
+        </Progress>
+        <WithStyles(ForwardRef(AppBar))
+          className="makeStyles-appBar-1"
+        >
+          <ForwardRef(AppBar)
+            className="makeStyles-appBar-1"
+            classes={
+              Object {
+                "colorDefault": "MuiAppBar-colorDefault",
+                "colorInherit": "MuiAppBar-colorInherit",
+                "colorPrimary": "MuiAppBar-colorPrimary",
+                "colorSecondary": "MuiAppBar-colorSecondary",
+                "colorTransparent": "MuiAppBar-colorTransparent",
+                "positionAbsolute": "MuiAppBar-positionAbsolute",
+                "positionFixed": "MuiAppBar-positionFixed",
+                "positionRelative": "MuiAppBar-positionRelative",
+                "positionStatic": "MuiAppBar-positionStatic",
+                "positionSticky": "MuiAppBar-positionSticky",
+                "root": "MuiAppBar-root",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Paper))
+              className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed"
+              component="header"
+              elevation={4}
+              square={true}
+            >
+              <ForwardRef(Paper)
+                className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed"
+                classes={
+                  Object {
+                    "elevation0": "MuiPaper-elevation0",
+                    "elevation1": "MuiPaper-elevation1",
+                    "elevation10": "MuiPaper-elevation10",
+                    "elevation11": "MuiPaper-elevation11",
+                    "elevation12": "MuiPaper-elevation12",
+                    "elevation13": "MuiPaper-elevation13",
+                    "elevation14": "MuiPaper-elevation14",
+                    "elevation15": "MuiPaper-elevation15",
+                    "elevation16": "MuiPaper-elevation16",
+                    "elevation17": "MuiPaper-elevation17",
+                    "elevation18": "MuiPaper-elevation18",
+                    "elevation19": "MuiPaper-elevation19",
+                    "elevation2": "MuiPaper-elevation2",
+                    "elevation20": "MuiPaper-elevation20",
+                    "elevation21": "MuiPaper-elevation21",
+                    "elevation22": "MuiPaper-elevation22",
+                    "elevation23": "MuiPaper-elevation23",
+                    "elevation24": "MuiPaper-elevation24",
+                    "elevation3": "MuiPaper-elevation3",
+                    "elevation4": "MuiPaper-elevation4",
+                    "elevation5": "MuiPaper-elevation5",
+                    "elevation6": "MuiPaper-elevation6",
+                    "elevation7": "MuiPaper-elevation7",
+                    "elevation8": "MuiPaper-elevation8",
+                    "elevation9": "MuiPaper-elevation9",
+                    "outlined": "MuiPaper-outlined",
+                    "root": "MuiPaper-root",
+                    "rounded": "MuiPaper-rounded",
+                  }
+                }
+                component="header"
+                elevation={4}
+                square={true}
+              >
+                <header
+                  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed MuiPaper-elevation4"
+                >
+                  <section
+                    className="makeStyles-section-2"
+                  >
+                    <Logo>
+                      <div
+                        className="makeStyles-logoContainer-3"
+                      >
+                        <Link
+                          to="/"
+                        >
+                          <LinkAnchor
+                            href="/"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="/"
+                              onClick={[Function]}
+                            >
+                              <div
+                                className="makeStyles-logoWrapper-4"
+                              >
+                                <img
+                                  alt="Instagram"
+                                  className="makeStyles-logo-5"
+                                  src="logo.png"
+                                />
+                              </div>
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </div>
+                    </Logo>
+                  </section>
+                </header>
+              </ForwardRef(Paper)>
+            </WithStyles(ForwardRef(Paper))>
+          </ForwardRef(AppBar)>
+        </WithStyles(ForwardRef(AppBar))>
+        <WithStyles(ForwardRef(Snackbar))
+          autoHideDuration={10000}
+          onClose={[Function]}
+          open={false}
+        >
+          <ForwardRef(Snackbar)
+            autoHideDuration={10000}
+            classes={
+              Object {
+                "anchorOriginBottomCenter": "MuiSnackbar-anchorOriginBottomCenter",
+                "anchorOriginBottomLeft": "MuiSnackbar-anchorOriginBottomLeft",
+                "anchorOriginBottomRight": "MuiSnackbar-anchorOriginBottomRight",
+                "anchorOriginTopCenter": "MuiSnackbar-anchorOriginTopCenter",
+                "anchorOriginTopLeft": "MuiSnackbar-anchorOriginTopLeft",
+                "anchorOriginTopRight": "MuiSnackbar-anchorOriginTopRight",
+                "root": "MuiSnackbar-root",
+              }
+            }
+            onClose={[Function]}
+            open={false}
+          />
+        </WithStyles(ForwardRef(Snackbar))>
+      </Memo(Navbar)>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`Navbar Navbar with isLoggedIn=true Navbar should correctly renders markup 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        Object {
+          "key": "testKey",
+          "pathname": "/",
+        },
+      ]
+    }
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/",
+              "search": "",
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "testKey",
+            "pathname": "/",
+            "search": "",
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Memo(Navbar)
+        minimalNavbar={true}
+      >
+        <Progress
+          isAnimating={false}
+        >
+          <div
+            className="makeStyles-progressContainer-25"
+            style={
+              Object {
+                "opacity": 0,
+                "transition": "opacity 200ms linear",
+              }
+            }
+          >
+            <div
+              className="makeStyles-progressBar-24"
+              style={
+                Object {
+                  "marginLeft": "0%",
+                  "transition": "margin-left 200ms linear",
+                }
+              }
+            >
+              <div
+                className="makeStyles-progressBackground-26"
+              />
+            </div>
+          </div>
+        </Progress>
+        <WithStyles(ForwardRef(AppBar))
+          className="makeStyles-appBar-1"
+        >
+          <ForwardRef(AppBar)
+            className="makeStyles-appBar-1"
+            classes={
+              Object {
+                "colorDefault": "MuiAppBar-colorDefault",
+                "colorInherit": "MuiAppBar-colorInherit",
+                "colorPrimary": "MuiAppBar-colorPrimary",
+                "colorSecondary": "MuiAppBar-colorSecondary",
+                "colorTransparent": "MuiAppBar-colorTransparent",
+                "positionAbsolute": "MuiAppBar-positionAbsolute",
+                "positionFixed": "MuiAppBar-positionFixed",
+                "positionRelative": "MuiAppBar-positionRelative",
+                "positionStatic": "MuiAppBar-positionStatic",
+                "positionSticky": "MuiAppBar-positionSticky",
+                "root": "MuiAppBar-root",
+              }
+            }
+          >
+            <WithStyles(ForwardRef(Paper))
+              className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed"
+              component="header"
+              elevation={4}
+              square={true}
+            >
+              <ForwardRef(Paper)
+                className="MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed"
+                classes={
+                  Object {
+                    "elevation0": "MuiPaper-elevation0",
+                    "elevation1": "MuiPaper-elevation1",
+                    "elevation10": "MuiPaper-elevation10",
+                    "elevation11": "MuiPaper-elevation11",
+                    "elevation12": "MuiPaper-elevation12",
+                    "elevation13": "MuiPaper-elevation13",
+                    "elevation14": "MuiPaper-elevation14",
+                    "elevation15": "MuiPaper-elevation15",
+                    "elevation16": "MuiPaper-elevation16",
+                    "elevation17": "MuiPaper-elevation17",
+                    "elevation18": "MuiPaper-elevation18",
+                    "elevation19": "MuiPaper-elevation19",
+                    "elevation2": "MuiPaper-elevation2",
+                    "elevation20": "MuiPaper-elevation20",
+                    "elevation21": "MuiPaper-elevation21",
+                    "elevation22": "MuiPaper-elevation22",
+                    "elevation23": "MuiPaper-elevation23",
+                    "elevation24": "MuiPaper-elevation24",
+                    "elevation3": "MuiPaper-elevation3",
+                    "elevation4": "MuiPaper-elevation4",
+                    "elevation5": "MuiPaper-elevation5",
+                    "elevation6": "MuiPaper-elevation6",
+                    "elevation7": "MuiPaper-elevation7",
+                    "elevation8": "MuiPaper-elevation8",
+                    "elevation9": "MuiPaper-elevation9",
+                    "outlined": "MuiPaper-outlined",
+                    "root": "MuiPaper-root",
+                    "rounded": "MuiPaper-rounded",
+                  }
+                }
+                component="header"
+                elevation={4}
+                square={true}
+              >
+                <header
+                  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed MuiPaper-elevation4"
+                >
+                  <section
+                    className="makeStyles-section-2"
+                  >
+                    <Logo>
+                      <div
+                        className="makeStyles-logoContainer-3"
+                      >
+                        <Link
+                          to="/"
+                        >
+                          <LinkAnchor
+                            href="/"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="/"
+                              onClick={[Function]}
+                            >
+                              <div
+                                className="makeStyles-logoWrapper-4"
+                              >
+                                <img
+                                  alt="Instagram"
+                                  className="makeStyles-logo-5"
+                                  src="logo.png"
+                                />
+                              </div>
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </div>
+                    </Logo>
+                  </section>
+                </header>
+              </ForwardRef(Paper)>
+            </WithStyles(ForwardRef(Paper))>
+          </ForwardRef(AppBar)>
+        </WithStyles(ForwardRef(AppBar))>
+        <WithStyles(ForwardRef(Snackbar))
+          autoHideDuration={10000}
+          onClose={[Function]}
+          open={false}
+        >
+          <ForwardRef(Snackbar)
+            autoHideDuration={10000}
+            classes={
+              Object {
+                "anchorOriginBottomCenter": "MuiSnackbar-anchorOriginBottomCenter",
+                "anchorOriginBottomLeft": "MuiSnackbar-anchorOriginBottomLeft",
+                "anchorOriginBottomRight": "MuiSnackbar-anchorOriginBottomRight",
+                "anchorOriginTopCenter": "MuiSnackbar-anchorOriginTopCenter",
+                "anchorOriginTopLeft": "MuiSnackbar-anchorOriginTopLeft",
+                "anchorOriginTopRight": "MuiSnackbar-anchorOriginTopRight",
+                "root": "MuiSnackbar-root",
+              }
+            }
+            onClose={[Function]}
+            open={false}
+          />
+        </WithStyles(ForwardRef(Snackbar))>
+      </Memo(Navbar)>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
