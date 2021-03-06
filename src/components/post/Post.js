@@ -56,7 +56,7 @@ function Post({ id }) {
           </div>
           {likes > 0 && (
             <Typography className={classes.likes} variant="subtitle2">
-              <span>{likes === 1 ? "1 like" : `${likes} likes`}</span>
+              <span data-testid="likesModal">{likes === 1 ? "1 like" : `${likes} likes`}</span>
             </Typography>
           )}
           <div className={classes.postCaptionContainer}>
