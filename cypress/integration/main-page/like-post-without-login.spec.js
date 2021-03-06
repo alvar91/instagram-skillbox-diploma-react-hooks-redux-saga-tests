@@ -4,7 +4,7 @@ describe("Like post without login", function () {
   });
 
   it("Correct number of posts", () => {
-    cy.get('[data-testid="icon"]').its('length').should("be.gte", 0);
+    cy.get('[data-testid="icon"]').its("length").should("be.gte", 0);
   });
 
   it("Correct number of likes after click", () => {
