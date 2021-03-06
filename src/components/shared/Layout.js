@@ -8,7 +8,7 @@ function Layout({ children, minimalNavbar = false, title, marginTop = 60 }) {
   const classes = useLayoutStyles();
 
   return (
-    <section className={classes.section}>
+    <section data-testid="layout" className={classes.section}>
       <SEO title={title} />
       <Navbar minimalNavbar={minimalNavbar} />
       <main className={classes.main} style={{ marginTop }}>

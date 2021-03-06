@@ -34,6 +34,7 @@ function FeedPost({ post, index }) {
   return (
     <>
       <article
+        data-testid="post"
         className={classes.article}
         style={{ marginBottom: showFollowSuggestions && 30 }}
       >
