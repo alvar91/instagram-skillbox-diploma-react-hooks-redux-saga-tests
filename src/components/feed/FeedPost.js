@@ -54,7 +54,7 @@ function FeedPost({ post, index }) {
           <LikeButton id={id} liked={liked_by_user} />
           {likes > 0 && (
             <Typography className={classes.likes} variant="subtitle2">
-              <span>{likes === 1 ? "1 like" : `${likes} likes`}</span>
+              <span data-testid="likes">{likes === 1 ? "1 like" : `${likes} likes`}</span>
             </Typography>
           )}
           <Typography color="textSecondary" className={classes.datePosted}>

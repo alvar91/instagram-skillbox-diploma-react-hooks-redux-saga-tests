@@ -30,7 +30,7 @@ function LikeButton({ id, liked }) {
     dispatch(postsActions.unlikePostWorker(id));
   }
 
-  return <Icon data-testid="Icon" className={className} onClick={onClick} />;
+  return <Icon data-testid="icon" className={className} onClick={onClick} />;
 }
 
 LikeButton.propTypes = {
