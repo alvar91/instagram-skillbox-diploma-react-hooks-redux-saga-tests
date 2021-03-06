@@ -1,4 +1,4 @@
-describe("Redirect to unsplash", function () {
+describe("Redirect to Unsplash", function () {
   before(() => {
     cy.visit("/");
     cy.clearCookies();
